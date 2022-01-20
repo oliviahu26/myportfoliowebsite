@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Playfair+Display:wght@400;500;600;900&family=Poppins:wght@100;200&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+#backgroundimage {
+  position: absolute;
+  top: 25vh;
+  left: 40vw;
+  width: 18vw;
+  animation-name: backgroundimage;
+  animation-duration: 6s;
+}
+
+@keyframes backgroundimage {
+  from {top: 0vh;}
+  to {top: 25vh;}
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+#name {
+  z-index: 1;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+svg text {
+  font-family: 'Playfair Display', serif;
+  stroke: black;
+  font-size: 180px;
+  font-weight: 400;
+  stroke-width: 1;
+  animation: textAnimate 3s 2 alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(0, 0%, 0%)
+
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: hsla(0, 0%, 0%, 0%)
+  }
+}
+
+#contact {
+  position: fixed;
+  top: 86vh;
+  left: 96vw;
+  font-size: 25px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  z-index: 5;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact:hover, .menu li:hover{
+  text-shadow: -.25px -.25px 0 black, .25px .25px black;
+}
+
+#icon {
+  position: fixed;
+  top: 3vh;
+  left: 95vw;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  text-orientation: mixed;
+  z-index: 5;
+}
+
+#creds {
+  position: absolute;
+  top: 40vh;
+  left: 96vw;
+  font-size: 25px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  z-index: 5;
+}
+
+#sidenav {
+  position: absolute;
+  height: auto;
+
+  background-color: none;
+  padding-top: 20px;
+  z-index: 5;
+}
+
+#sidenav a {
+  padding: 15px 0px 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.menu {
+  cursor: pointer;
+  padding: 15px 0px 0px 30px;
+  font-size: 20px;
+}
+
+.menu li{
+  padding-top: 15px;
+  padding-left: 0px;
+  height: 0px;
+  overflow: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu:hover li {
+  padding-top: 0px;
+  padding-left: 0px;
+  height: auto;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+  z-index: 6;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#caption, #caption2, #caption3 {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+  height: 200px;
+}
+
+.modal-content, #caption, #caption2, #caption3 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close, .close2, .close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: normal;
+  transition: 0.3s;
+}
+
+.close:hover, .close2:hover, .close3:hover{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close:focus, .close2:focus, .close3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+img {
+  width: 50%;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#taxonomyportrait, #familyaffair, #patternsoftime{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#taxonomyportrait:hover, #familyaffair:hover,  #patternsoftime:hover {
+  opacity: 0.7;
+}
+
+#projects {
+  position: absolute;
+  width: 20vw;
+  left: 5vw;
+  top: 100vh;
+}
+
+#title1 {
+  position: absolute;
+  left: 12vw;
+  top: 105vh;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#description {
+  position: absolute;
+  left: 12vw;
+  top: 110vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#name1{
+  position: absolute;
+  left: 75vw;
+  top: 105vh;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#taxonomyportrait {
+  position: absolute;
+  top: 105vh;
+  left: 32vw;
+  width: 40vw;
+}
+
+#name2{
+  position: absolute;
+  left: 75vw;
+  top: 167vh;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#patternsoftime {
+  position: absolute;
+  top: 167vh;
+  left: 32vw;
+  width: 35vw;
+}
+
+#name3{
+  position: absolute;
+  left: 75vw;
+  top: 235vh;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#familyaffair {
+  position: absolute;
+  top: 235vh;
+  left: 32vw;
+  width: 35vw;
+}
+
+#project2 {
+  position: absolute;
+  width: 20vw;
+  left: 5vw;
+  top: 250vh;
+}
+
+#title2 {
+  position: absolute;
+  left: 75vw;
+  top: 333vh;
+  width: 15vw;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#description2 {
+  position: absolute;
+  left: 75vw;
+  top: 347vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#frontcover {
+  position: absolute;
+  top: 330vh;
+  left: 42vw;
+  width: 30vw;
+}
+
+#thickness {
+  position: absolute;
+  top: 345vh;
+  left: 10vw;
+  width: 55vw;
+}
+
+#chapters {
+  position: absolute;
+  top: 395vh;
+  left: 42vw;
+  width: 30vw;
+}
+
+#spiralarms {
+  position: absolute;
+  top: 395vh;
+  left: 10vw;
+  width: 60vw;
+}
+
+#mass {
+  position: absolute;
+  top: 440vh;
+  left: 10vw;
+  width: 60vw;
+}
+
+#nessie {
+  position: absolute;
+  top: 440vh;
+  left: 42vw;
+  width: 30vw;
+}
+
+#fullcover {
+  position: absolute;
+  top: 485vh;
+  left: 38vw;
+  width: 35vw;
+}
+
+#back {
+  position: absolute;
+  top: 485vh;
+  left: 10vw;
+  width: 45vw;
+}
+
+#title3{
+  position: absolute;
+  left: 45vw;
+  top: 560vh;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#description3 {
+  position: absolute;
+  left: 45vw;
+  top: 575vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#closeup1 {
+  position: absolute;
+  left: 10vw;
+  top: 560vh;
+  width: 30vw;
+}
+
+#mirror {
+  position: absolute;
+  left: 30vw;
+  top: 610vh;
+  width: 40vw;
+  z-index: 1;
+}
+
+#closeup2 {
+  position: absolute;
+  left: 60vw;
+  top: 660vh;
+  width: 30vw;
+  z-index: 1;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.underline:after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.arrow {
+  position: absolute;
+  left: 48vw;
+  top: 90vh;
+  height: 2vw;
+  width: 2vw;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  animation-duration: 2s;
+  animation-name: arrow;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+  z-index: 5;
+}
+
+.arrow2 {
+  position: absolute;
+  top: 705vh;
+  left: 5vw;
+  height: 2vw;
+  width: 2vw;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 1px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+#arrowtag {
+  position: absolute;
+  top: 710vh;
+  left: 2vw;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.arrow2:hover {
+  border-top-width: 4px;
+  border-left-width: 4px;
+}
+
+@keyframes arrow {
+  0%   {left:48vw; top:90vh}
+  25%   {left:48vw; top:85vh}
+}
