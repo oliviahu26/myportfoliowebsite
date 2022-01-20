@@ -86,7 +86,7 @@ transition: opacity 2s ease-in;
 
 #header {
   position: fixed;
-  left: 15vw;
+  left: 21vw;
   top: 10vh;
   font-weight: 400;
   font-style: italic;
@@ -95,6 +95,7 @@ transition: opacity 2s ease-in;
   letter-spacing: 20px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  z-index: 5;
 }
 
 #hello {
@@ -109,7 +110,7 @@ transition: opacity 2s ease-in;
 
 #profilepic {
   position: absolute;
-  left: 30vw;
+  left: 28vw;
   top: 15vh;
   width: 50vh;
 }
