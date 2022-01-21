@@ -121,7 +121,7 @@ svg text {
   outline: none;
 }
 
-@media screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) {
   #sidenav {width: 326px; float: center;}
   text {width: 300px;}
   #backgroundimage {width: 18vw;}
