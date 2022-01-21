@@ -32,10 +32,6 @@ body {
   transition: opacity 2s ease-in;
 }
 
-@media only screen and (max-width: 428px) {
- body {font-size: 50%;}
-}
-
 #name {
   z-index: 1;
   position: absolute;
@@ -87,10 +83,10 @@ svg text {
 #icon {
   position: fixed;
   top: 3vh;
-  left: 95vw;
+  left: 92vw;
   font-size: 25px;
   font-family: 'Playfair Display', serif;
-  text-orientation: mixed;
+  text-align: right;
   z-index: 5;
 }
 
@@ -126,9 +122,13 @@ svg text {
 }
 
 @media only screen and (max-width: 428px) {
-  #sidenav {width: 326px; float: center;}
-  text {width: 300px;}
-  #backgroundimage {width: 18vw;}
+svg {height: 0%;}
+#backgroundimage {width: 60%; left: 20vw; top: 35vh;}
+#icon {left: 28vw; font-size: 40px;}
+@keyframes backgroundimage {
+  from {top: 0vh;}
+  to {top: 35vh;}
+}
 }
 
 .menu {
