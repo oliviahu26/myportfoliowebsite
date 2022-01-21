@@ -32,6 +32,10 @@ body {
   transition: opacity 2s ease-in;
 }
 
+@media only screen and (max-width: 428px) {
+ body {font-size: 50%;}
+}
+
 #name {
   z-index: 1;
   position: absolute;
