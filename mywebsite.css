@@ -431,6 +431,79 @@ img {
   z-index: 1;
 }
 
+#title4{
+  position: absolute;
+  left: 20vw;
+  top: 725vh;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#description4{
+  position: absolute;
+  left: 20vw;
+  top: 740vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#insta {
+  position: absolute;
+  left: 65vw;
+  top: 785vh;
+  width: 20vw;
+}
+
+#insta2{
+  position: absolute;
+  left: 40vw;
+  top: 725vh;
+  width: 20vw;
+}
+
+#ringitup{
+  position: absolute;
+  left: 65vw;
+  top: 725vh;
+  width: 30vw;
+}
+
+#silverlining{
+  position: absolute;
+  left: 10vw;
+  top: 800vh;
+  width: 25vw;
+}
+
+#tooextra{
+  position: absolute;
+  left: 37vw;
+  top: 800vh;
+  width: 25vw;
+}
+
+#intertwined{
+  position: absolute;
+  left: 37vw;
+  top: 845vh;
+  width: 25vw;
+}
+
+#intertwined{
+  position: absolute;
+  left: 37vw;
+  top: 845vh;
+  width: 25vw;
+}
+
+#doubletrouble{
+  position: absolute;
+  left: 10vw;
+  top: 845vh;
+  width: 25vw;
+}
+
 a:link {
   color: black;
   text-decoration: none;
@@ -497,8 +570,8 @@ a:active {
 
 .arrow2 {
   position: absolute;
-  top: 705vh;
-  left: 5vw;
+  top: 880vh;
+  left: 3.5vw;
   height: 2vw;
   width: 2vw;
   box-sizing: border-box;
@@ -511,7 +584,7 @@ a:active {
 
 #arrowtag {
   position: absolute;
-  top: 710vh;
+  top: 883vh;
   left: 2vw;
 }
 
