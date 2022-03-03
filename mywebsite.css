@@ -103,7 +103,6 @@ svg text {
 #sidenav {
   position: absolute;
   height: auto;
-
   background-color: none;
   padding-top: 20px;
   z-index: 5;
@@ -119,16 +118,6 @@ svg text {
   text-align: left;
   cursor: pointer;
   outline: none;
-}
-
-@media only screen and (max-width: 428px) {
-svg {height: 0%;}
-#backgroundimage {width: 60%; left: 20vw; top: 35vh;}
-#icon {left: 28vw; font-size: 40px;}
-@keyframes backgroundimage {
-  from {top: 0vh;}
-  to {top: 35vh;}
-}
 }
 
 .menu {
@@ -613,3 +602,124 @@ a:active {
   0%   {left:48vw; top:90vh}
   25%   {left:48vw; top:85vh}
 }
+
+@media only screen and (max-width: 600px) {
+  svg {
+    height: 0%;
+  }
+  #backgroundimage {
+    width: 60%; left: 20vw; top: 35vh;
+  }
+  #icon {
+    left: 35vw; font-size: 40px;
+  }
+  .arrow{
+    height: 4vh; width: 7.5vw;
+  }
+  .menu {
+    cursor: pointer;
+    padding: 15px 0px 0px 30px;
+    font-size: 20px;
+    }
+  .menu:hover li {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    height: auto;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: rgb(202, 201, 201);
+  }
+
+  #contact {
+    position: fixed;
+    top: 86vh;
+    left: 90vw;
+    font-size: 25px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    z-index: 5;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #creds {
+  position: absolute;
+  top: 1vh;
+  left: 37.5vw;
+  font-size: 18px;
+  z-index: 5;
+  }
+
+  #title1 {
+    position: absolute;
+    left: 20vw;
+    top: 110vh;
+    width: 100vw;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  #description {
+    position: absolute;
+    left: 2vw;
+    top: 125vh;
+    width: 100vw;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  #name1{
+    position: absolute;
+    left: 2vw;
+    top: 118vh;
+    width: 100vw;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #taxonomyportrait {
+    position: absolute;
+    top: 130vh;
+    left: 0vw;
+    width: 100vw;
+  }
+  
+  #name2{
+    position: absolute;
+    left: 2vw;
+    top: 172vh;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #patternsoftime {
+    position: absolute;
+    top: 180vh;
+    left: 0vw;
+    width: 100vw;
+  }
+  
+  #name3{
+    position: absolute;
+    left: 2vw;
+    top: 235vh;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #familyaffair {
+    position: absolute;
+    top: 245vh;
+    left: 0vw;
+    width: 100vw;
+  }
+  
+
+  @keyframes backgroundimage {
+    from {top: 0vh;}
+    to {top: 35vh;}
+  }
+  }
