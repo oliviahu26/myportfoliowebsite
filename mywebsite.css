@@ -92,11 +92,11 @@ svg text {
 
 #creds {
   position: absolute;
-  top: 40vh;
-  left: 96vw;
-  font-size: 25px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  top: 3.45vh;
+  left: 82.5vw;
+  font-size: 20px;
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
   z-index: 5;
 }
 
@@ -335,6 +335,15 @@ img {
   font-size: 16px;
 }
 
+#moredescription2 {
+  position: absolute;
+  left: 75vw;
+  top: 430vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 #frontcover {
   position: absolute;
   top: 330vh;
@@ -403,6 +412,15 @@ img {
   position: absolute;
   left: 45vw;
   top: 575vh;
+  width: 15vw;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#moredescription3 {
+  position: absolute;
+  left: 10vw;
+  top: 640vh;
   width: 15vw;
   font-weight: 400;
   font-size: 16px;
