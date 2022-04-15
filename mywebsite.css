@@ -211,7 +211,7 @@ svg text {
   cursor: pointer;
 }
 
-img {
+img, video {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
@@ -385,13 +385,13 @@ img {
   align-items: center;
   margin-left: 10vw;
   height: 200vh;
-  top: 1050vh;
+  top: 1330vh;
 }
 
 #title4 {
   position: absolute;
   left: 20vw;
-  top: 1050vh;
+  top: 1320vh;
   font-weight: 600;
   font-size: 25px;
 }
@@ -399,10 +399,79 @@ img {
 #description4 {
   position: absolute;
   left: 20vw;
-  top: 1065vh;
+  top: 1335vh;
   width: 17vw;
   font-weight: 500;
   font-size: 18px;
+}
+
+#project5 {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30% 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  height: 200vh;
+  top: 1050vh;
+}
+
+#blackposter {
+  width: 70%;
+  margin-left: 5vw;
+}
+
+#whiteposter {
+  width: 70%;
+  margin-left: 15vw;
+}
+
+#title5 {
+  position: absolute;
+  left: 6vw;
+  top: 1038vh;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#description5 {
+  position: absolute;
+  left: 6vw;
+  top: 1053vh;
+  width: 17vw;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#description6 {
+  position: absolute;
+  left: 30vw;
+  top: 1225vh;
+  width: auto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#description7 {
+  position: absolute;
+  left: 73vw;
+  top: 1263vh;
+  width: 17vw;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#mockup {
+  width: 85%;
+  grid-column: 1 / 3;
+  margin-top: 170px;
+}
+
+#video {
+  margin-top: 100px;
+  grid-column: 1 / 3; 
+  margin-left: 270px;
 }
 
 #insta, #insta2 {
