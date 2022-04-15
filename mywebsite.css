@@ -384,7 +384,7 @@ img, video {
   justify-content: center;
   align-items: center;
   margin-left: 10vw;
-  height: 180vh;
+  height: 200vh;
   top: 1330vh;
 }
 
@@ -560,7 +560,7 @@ a:active {
 
 .arrow2 {
   position: absolute;
-  top: 1495vh;
+  top: 1505vh;
   left: 3.5vw;
   height: 2vw;
   width: 2vw;
@@ -574,7 +574,7 @@ a:active {
 
 #arrowtag {
   position: absolute;
-  top: 1500vh;
+  top: 1510vh;
   left: 2vw;
 }
 
