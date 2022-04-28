@@ -230,7 +230,7 @@ img, video {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 115vh;
+  top: 1000vh;
   width: 60vw;
   left: 32vw;
   margin: 0;
@@ -245,14 +245,14 @@ img, video {
 #title1 {
   position: absolute;
   left: 10vw;
-  top: 118vh;
+  top: 1005vh;
   font-size: 25px;
 }
 
 #description {
   position: absolute;
   left: 10vw;
-  top: 125vh;
+  top: 1010vh;
   width: 17vw;
   font-size: 18px;
 }
@@ -263,7 +263,7 @@ img, video {
   grid-template-columns: 40% 40%;
   grid-template-rows: 25% 25% 25% 25%;
   align-items: center;
-  top: 630vh;
+  top: 115vh;
 }
 
 #frontcover, #back {
@@ -295,7 +295,7 @@ img, video {
 #title2 {
   position: absolute;
   left: 75vw;
-  top: 630vh;
+  top: 115vh;
   width: 17vw;
   font-size: 25px;
 }
@@ -303,7 +303,7 @@ img, video {
 #description2 {
   position: absolute;
   left: 75vw;
-  top: 645vh;
+  top: 130vh;
   width: 17vw;
   font-size: 18px;
 }
@@ -311,7 +311,7 @@ img, video {
 #moredescription2 {
   position: absolute;
   left: 75vw;
-  top: 725vh;
+  top: 225vh;
   width: 17vw;
   font-size: 18px;
 }
@@ -324,12 +324,12 @@ img, video {
   justify-content: center;
   align-items: center;
   margin-left: 10vw;
-  top: 875vh;
+  top: 360vh;
 }
 
 #title3 {
   position: absolute;
-  top: 865vh;
+  top: 350vh;
   left: 40vw;
   font-weight: 600;
   font-size: 25px;
@@ -339,7 +339,7 @@ img, video {
   position: absolute;
   font-size: 18px;
   font-weight: 500;
-  top: 880vh;
+  top: 365vh;
   left: 40vw;
   width: 16vw;
 }
@@ -348,7 +348,7 @@ img, video {
   position: absolute;
   font-size: 18px;
   font-weight: 500;
-  top: 935vh;
+  top: 420vh;
   left: 8vw;
   width: 17vw;
 }
@@ -385,13 +385,13 @@ img, video {
   align-items: center;
   margin-left: 10vw;
   height: 200vh;
-  top: 1330vh;
+  top: 820vh;
 }
 
 #title4 {
   position: absolute;
   left: 20vw;
-  top: 1320vh;
+  top: 812vh;
   font-weight: 600;
   font-size: 25px;
 }
@@ -399,7 +399,7 @@ img, video {
 #description4 {
   position: absolute;
   left: 20vw;
-  top: 1335vh;
+  top: 826vh;
   width: 17vw;
   font-weight: 500;
   font-size: 18px;
@@ -414,7 +414,7 @@ img, video {
   align-items: center;
   margin-left: 10vw;
   height: 200vh;
-  top: 1050vh;
+  top: 530vh;
 }
 
 #blackposter {
@@ -430,7 +430,7 @@ img, video {
 #title5 {
   position: absolute;
   left: 6vw;
-  top: 1038vh;
+  top: 517vh;
   font-weight: 600;
   font-size: 25px;
 }
@@ -438,7 +438,7 @@ img, video {
 #description5 {
   position: absolute;
   left: 6vw;
-  top: 1053vh;
+  top: 533vh;
   width: 17vw;
   font-weight: 500;
   font-size: 18px;
@@ -447,7 +447,7 @@ img, video {
 #description6 {
   position: absolute;
   left: 30vw;
-  top: 1225vh;
+  top: 706vh;
   width: auto;
   font-weight: 500;
   font-size: 18px;
@@ -456,8 +456,8 @@ img, video {
 #description7 {
   position: absolute;
   left: 73vw;
-  top: 1263vh;
-  width: 17vw;
+  top: 712vh;
+  width: 18vw;
   font-weight: 500;
   font-size: 18px;
 }
