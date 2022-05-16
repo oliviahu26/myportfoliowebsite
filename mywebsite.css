@@ -226,6 +226,30 @@ img, video {
   opacity: 0.7;
 }
 
+#title6 {
+  position: absolute;
+  top: 1020vh;
+  left: 45vw;
+}
+
+#description8 {
+  position: absolute;
+  top: 1020vh;
+  left: 20vw;
+}
+
+#webdesign {
+  position: absolute;
+  top: 1020vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+#onpunctuation, #elasticcollections {
+  margin: 20px;
+}
+
 #projects {
   display: flex;
   flex-direction: column;
@@ -510,12 +534,6 @@ img, video {
   font-size: 25px;
 }
 
-#onpunctuation {
-  position: absolute;
-  top: 1020vh;
-  left: 25vw;
-}
-
 a:link {
   color: black;
   text-decoration: none;
@@ -582,7 +600,7 @@ a:active {
 
 .arrow2 {
   position: absolute;
-  top: 1505vh;
+  top: 1705vh;
   left: 3.5vw;
   height: 2vw;
   width: 2vw;
@@ -596,7 +614,7 @@ a:active {
 
 #arrowtag {
   position: absolute;
-  top: 1510vh;
+  top: 1710vh;
   left: 2vw;
 }
 
