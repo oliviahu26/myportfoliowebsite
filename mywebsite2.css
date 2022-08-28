@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+
+@font-face {
+  font-family: "Blocus";
+  src: url("Blocus.otf");
+}
+
+.container {
+  white-space: nowrap;
+  font-size: 200px;
+  font-family: 'Blocus';
+  color: rgb(79, 78, 78);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+p#name0, p#name2, p#name4 {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 200%;
+   
+  animation: scroll-slowr 40s linear infinite;
+  -moz-animation: scroll-slowr 40s linear infinite;
+  -webkit-animation: scroll-slowr 40s linear infinite;
+   
+  transform:translateX(100%);
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+ }
+   
+ @keyframes scroll-slowr {
+  0%   { 
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(-50%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(0%); 
+  }
+ }
+
+p#name1, p#name3 {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 200%;
+   
+  animation: scroll-slowl 40s linear infinite;
+  -moz-animation: scroll-slowl 40s linear infinite;
+  -webkit-animation: scroll-slowl 40s linear infinite;
+   
+  transform:translateX(100%);
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+ }
+   
+ @keyframes scroll-slowl {
+  0%   { 
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(0%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-50%); 
+  }
+ }
+
+p span:hover { 
+  background: linear-gradient(to right, #00F0FF 20%, #F230DF 50%, #f09e3a 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+  cursor: pointer;
+}
+
+p span#left:hover { 
+  background: linear-gradient(to left, #00F0FF 20%, #F230DF 50%, #f09e3a 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  font-size: 1vw;
+  width: 30%;
+  color: white;
+  padding: 30px;
+}
+
+#navbarright{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  top: 0;
+  right: 7px;
+  font-size: 1vw;
+  color: white;
+}
+
+#logo {
+  font-family: 'Blocus';
+  font-size: 2vw;
+}
+
+div#navbarright a#logo:hover {
+  font-style: normal;
+}
+
+#portfoliomenu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 18vh;
+  font-size: 1vw;
+  color: white;
+  padding: 30px;
+}
+
+div#portfoliomenu a{
+  padding: 10px;
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20vh;
+  padding-left: 30vw;
+}
+
+video.code{
+  padding-bottom: 50px;
+  width: 55vw;
+}
+
+img.milkyway, img.socialfakebig, img#case{
+  width: 50vw;
+  padding-bottom: 30px;
+}
+
+img.illustration {
+  width: 40vw;
+  padding-bottom: 30px;
+  padding-left: 10vw;
+}
+
+img.socialfake {
+  width: 30vw;
+  padding-bottom: 30px;
+  padding-left: 20vw; 
+}
+
+embed#resume {
+  position: absolute;
+  left: 40vw;
+  top: 10h;
+}
+
+a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:visited {
+  color: white;
+}
+
+#navbar a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+#navbar a,
+#navbar a:after,
+#navbar a:before {
+  position: relative;
+  transition: all .5s;
+}
+
+#navbar a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ' ';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+#navbar a:hover:after {
+  width: 100%;
+}
+
+#about {
+  position: relative;
+  top: 40vh;
+  left: 50vw;
+  width: 30vw;
+  margin-right: auto;
+  font-family:'Montserrat', sans-serif; 
+  font-size: 15px;
+  color: white;
+}
+
+#profilepic{
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+  height: auto;
+  width: 30vw;
+}
+
+button#resume {
+  position: relative;
+  background-color:#F230DF;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color:#F230DF;
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  #welcome {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    text-align: right;
+    left: 35vw;
+    top: 25vh;
+  }
+}
