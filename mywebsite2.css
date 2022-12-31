@@ -125,14 +125,14 @@ p span#left:hover {
   padding: 30px 600px;
 }
 
-#navbarright{
+#navbarleft{
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 30px;
   top: 0;
-  right: 7px;
+  left: 7px;
   font-size: 1vw;
   color: white;
 }
