@@ -179,22 +179,11 @@ img.milkyway, img.lobster, img.socialfakebig{
   padding-bottom: 30px;
 }
 
-img.illustration {
-  width: 40vw;
-  padding-bottom: 30px;
-  padding-left: 10vw;
-}
-
-img.socialfake, img.lesserafim {
+img.socialfake, img.lesserafim, img.illustration, img#case {
   width: 30vw;
   padding-bottom: 30px;
   padding-left: 10vw; 
 }
-
-img#case {
-  width: 30vw;
-}
-
 
 embed#resume {
   position: absolute;
