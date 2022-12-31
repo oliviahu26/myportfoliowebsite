@@ -185,7 +185,7 @@ img.illustration {
   padding-left: 10vw;
 }
 
-img.socialfake {
+img.socialfake, img.lesserafim {
   width: 30vw;
   padding-bottom: 30px;
   padding-left: 10vw; 
@@ -194,6 +194,7 @@ img.socialfake {
 img#case {
   width: 30vw;
 }
+
 
 embed#resume {
   position: absolute;
