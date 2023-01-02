@@ -193,10 +193,14 @@ img.milkyway, img.lobster, img.socialfakebig{
   padding-bottom: 30px;
 }
 
-img.socialfake, img.lesserafim, img.peoplemag, img.illustration, img#case {
+img.socialfake, img.lesserafim, img.illustration, img#case {
   width: 30vw;
   padding-bottom: 30px;
   padding-left: 10vw; 
+}
+
+img.peoplemag {
+  width: 20vw;
 }
 
 embed#resume {
