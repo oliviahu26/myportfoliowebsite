@@ -175,6 +175,10 @@ div#portfoliomenu a{
   margin: 0;
 }
 
+div#portfoliomenu a:hover {
+  color: white;
+}
+
 #work {
   display: flex;
   flex-direction: column;
@@ -193,13 +197,13 @@ img.milkyway, img.lobster, img.socialfakebig{
   padding-bottom: 30px;
 }
 
-img.socialfake, img.lesserafim, img.illustration, img#case {
+img.illustration, img#case {
   width: 30vw;
   padding-bottom: 30px;
   padding-left: 10vw; 
 }
 
-img.peoplemag {
+img.peoplemag, img.lesserafim, img.socialfake{
   width: 20vw;
 }
 
