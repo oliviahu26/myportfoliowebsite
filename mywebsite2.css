@@ -192,9 +192,14 @@ video.code{
   width: 55vw;
 }
 
-img.milkyway, img.lobster, img.socialfakebig{
+img.milkyway, img.socialfakebig{
   width: 50vw;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+img.lobster{
+  width: 50vw;
+  padding-bottom: 5px;
 }
 
 img.illustration, img#case {
@@ -204,7 +209,12 @@ img.illustration, img#case {
 }
 
 img.peoplemag, img.lesserafim, img.socialfake{
-  width: 20vw;
+  width: 22vw;
+  padding: 5px;
+}
+
+img.peoplemag2 {
+  width: 50vw;
 }
 
 embed#resume {
