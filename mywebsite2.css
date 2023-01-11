@@ -128,19 +128,17 @@ p span#left:hover {
 
 #navbarleft{
   position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   padding: 30px;
-  top: 0;
-  left: 7px;
   font-size: 1vw;
+  top: 0.5vh;
+  left: 3vw;
   color: white;
 }
 
 #logo {
   font-family: 'Blocus';
   font-size: 2vw;
+  text-transform: uppercase;
 }
 
 div#navbarright a#logo:hover {
@@ -315,20 +313,137 @@ button:hover {
   background-color: white;
   color:#F230DF;
 }
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
-@media only screen and (max-width: 390px) {
-  body {
-    background-color: black;
-    color: white;
-  }
+    body {
+      background-color: black;
+      color: white;
+    }
 
-  #welcome {
-    position: absolute;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    font-size: 100px;
-    text-align: right;
-    left: 35vw;
-    top: 25vh;
-  }
+    .container{
+      font-size: 170px;
+    }
+
+    #navbarleft{
+      position: fixed;
+      padding: 20px;
+      font-size: 1vw;
+      color: white;
+    }
+
+    #logo {
+      font-size: 12vw;
+    }
+
+    #navbar {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 6vw;
+      text-align: center;
+      color: white;
+      width: 50%;
+      top: 40vh;
+      left: 26vw;
+      padding: 0;
+    }
+
+    #navbarportfolio {
+      position: fixed;
+      display: flex;
+      text-transform: uppercase;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 5vw;
+      text-align: center;
+      color: white;
+      width: 100%;
+      top: 11vh;
+    }
+
+    #portfoliomenu {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      padding: 0;
+      top: 15vh;
+      left: 1vw;
+      color:  rgb(79, 78, 78);
+    }
+    
+    div#portfoliomenu header{
+      font-size: 3vw;
+      color: #F230DF;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    div#portfoliomenu a{
+      display: none;
+    }
+    
+    div#portfoliomenu ::after {
+      color: white;
+    }
+
+    #work {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      padding-left: 0;
+      padding-top: 20vh;
+    }
+
+    video.code{
+      padding-bottom: 0;
+      width: 100vw;
+      height: auto;
+    }
+    
+    img.milkyway, img.socialfakebig{
+      width: 100vw;
+      padding-bottom: 5vh;
+    }
+    
+    img.lobster{
+      width: 100vw;
+      padding-bottom: 1vh;
+    }
+    
+    img.illustration, img#case {
+      width: 100vw;
+      padding-bottom: 30px;
+      padding-left: 0;
+    }
+    
+    img.peoplemag, img.lesserafim, img.socialfake{
+      width: 100vw;
+      padding-left: 0; 
+    }
+    
+    img.peoplemag2 {
+      width: 100vw;
+    }
+
+    button#visit {
+      position: relative;
+      top: 10px;
+      left: 75vw;
+      background-color:#F230DF;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+    }
 }
+
