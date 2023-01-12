@@ -7,7 +7,6 @@ html{
 
 body{
   background-color: black;
-  padding-bottom: 10vh;
 }
 
 @font-face {
@@ -125,7 +124,7 @@ p span#left:hover {
   font-size: 1vw;
   width: 30%;
   color: white;
-  padding: 30px 600px;
+  padding: 30px 32vw;
 }
 
 #navbarportfolio {
