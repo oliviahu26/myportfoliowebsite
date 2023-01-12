@@ -126,6 +126,32 @@ p span#left:hover {
   padding: 30px 600px;
 }
 
+#navbarportfolio {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  font-size: 1vw;
+  text-transform: uppercase;
+  width: 30%;
+  color: white;
+  padding: 30px 600px;
+}
+
+#navbarabout {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  font-size: 1vw;
+  text-transform: uppercase;
+  width: 30%;
+  color: white;
+  padding: 30px 600px;
+}
+
 #navbarleft{
   position: fixed;
   padding: 30px;
@@ -206,7 +232,12 @@ img.illustration, img#case {
   padding-left: 10vw; 
 }
 
-img.peoplemag, img.lesserafim, img.socialfake{
+img.peoplemag {
+  width: 25vw;
+  padding: 5px;
+}
+
+img.lesserafim, img.socialfake{
   width: 22vw;
   padding: 5px;
 }
@@ -231,7 +262,7 @@ a:visited {
   color: white;
 }
 
-#navbar a {
+#navbar a, #navbarportfolio a {
   display: block;
   padding: 15px;
   text-decoration: none;
@@ -241,12 +272,15 @@ a:visited {
 }
 #navbar a,
 #navbar a:after,
-#navbar a:before {
+#navbar a:before,
+#navbarportfolio a, 
+#navbarportfolio a:after,
+#navbarportfolio a:before {
   position: relative;
   transition: all .5s;
 }
 
-#navbar a:after {
+#navbar a:after, #navbarportfolio a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -339,6 +373,8 @@ button:hover {
       font-size: 12vw;
     }
 
+    /* navigation bars */
+
     #navbar {
       position: fixed;
       display: flex;
@@ -356,15 +392,30 @@ button:hover {
     #navbarportfolio {
       position: fixed;
       display: flex;
-      text-transform: uppercase;
       flex-direction: row;
       justify-content: space-around;
+      top: 9vh;
       font-size: 5vw;
-      text-align: center;
-      color: white;
+      text-transform: uppercase;
       width: 100%;
-      top: 11vh;
+      color: white;
+      padding: 0;
     }
+
+    #navbarabout {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      top: 9vh;
+      font-size: 5vw;
+      text-transform: uppercase;
+      width: 100%;
+      color: white;
+      padding: 0;
+    }
+
+    /* portfolio page */
 
     #portfoliomenu {
       position: fixed;
@@ -444,6 +495,31 @@ button:hover {
       border: none;
       border-radius: 5px;
       padding: 10px;
+    }
+
+    /* about page  */
+
+    #about {
+      position: absolute;
+      top: 75vh;
+      left: 0;
+      padding: 10px;
+      width: 100%;
+      margin-right: auto;
+      font-family:'Poppins', sans-serif; 
+      font-size: 4vw;
+      color: white;
+    }
+    
+    #hi{
+      font-size: 50px;
+    }
+    
+    #profilepic{
+      position: absolute;
+      top: 20vh;
+      width: 100vw;
+      left: 0;
     }
 }
 
