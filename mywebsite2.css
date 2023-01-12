@@ -234,7 +234,6 @@ img.illustration, img#case {
 
 img.peoplemag {
   width: 25vw;
-  padding: 5px;
 }
 
 img.lesserafim, img.socialfake{
@@ -347,6 +346,7 @@ button:hover {
   background-color: white;
   color:#F230DF;
 }
+
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 350px) 
@@ -430,10 +430,7 @@ button:hover {
     }
     
     div#portfoliomenu header{
-      font-size: 3vw;
-      color: #F230DF;
-      font-weight: 500;
-      font-family: "Poppins", sans-serif;
+      display: none;
     }
     
     div#portfoliomenu a{
@@ -521,5 +518,6 @@ button:hover {
       width: 100vw;
       left: 0;
     }
+
 }
 
