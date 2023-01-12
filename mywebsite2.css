@@ -292,9 +292,14 @@ a:visited {
   width: 0%;
   content: ' ';
   color: transparent;
-  background: white;
+  background:#F230DF;;
   height: 1px;
 }
+
+#navbar a:hover, #navbarportfolio a:hover, #navbarabout a:hover {
+  color: #F230DF;
+}
+
 #navbar a:hover:after, #navbarportfolio a:hover:after, #navbarabout a:hover:after {
   width: 100%;
 }
@@ -322,7 +327,7 @@ a:visited {
   width: 30vw;
 }
 
-button#resume {
+button#resume{
   position: relative;
   background-color:#F230DF;
   font-size: 15px;
@@ -333,7 +338,7 @@ button#resume {
   padding: 15px;
 }
 
-button#visit {
+button#visit{
   position: relative;
   top: -100px;
   left: 50px;
@@ -346,10 +351,14 @@ button#visit {
   padding: 15px;
 }
 
-button:hover {
+
+button#visit:hover, button#resume:hover {
   background-color: white;
-  color:#F230DF;
+  color: #F230DF;
+  cursor: pointer;
+  transition: 0.5s;
 }
+
 
 /* phone screen size */
 
@@ -634,40 +643,40 @@ button:hover {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 100%;
+      width: 100vw;
       padding-left: 25vw;;
       padding-top: 20vh;
     }
 
     video.code{
       padding-bottom: 0;
-      width: 90vw;
+      width: 70vw;
       height: auto;
     }
     
     img.milkyway, img.socialfakebig{
-      width: 90vw;
+      width: 70vw;
       padding-bottom: 5vh;
     }
     
     img.lobster{
-      width: 90vw;
+      width: 70vw;
       padding-bottom: 1vh;
     }
     
     img.illustration, img#case {
-      width: 90vw;
+      width: 70vw;
       padding-bottom: 30px;
       padding-left: 0;
     }
     
     img.peoplemag, img.lesserafim, img.socialfake{
-      width: 90vw;
+      width: 70vw;
       padding-left: 0; 
     }
     
     img.peoplemag2 {
-      width: 90vw;
+      width: 70vw;
     }
 
     button#visit {
