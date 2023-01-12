@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* macbook pro 16 inch screen */
 html{
   scroll-behavior: smooth;
 }
@@ -350,10 +352,11 @@ button:hover {
   color:#F230DF;
 }
 
-/* Portrait and Landscape */
+/* phone screen size */
+
 @media only screen 
-  and (min-device-width: 350px) 
-  and (max-device-width: 900px) 
+  and (min-device-width: 300px) 
+  and (max-device-width: 750px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     body {
@@ -512,7 +515,7 @@ button:hover {
     }
     
     #hi{
-      font-size: 50px;
+      font-size: 6vw;
     }
     
     #profilepic{
@@ -520,6 +523,201 @@ button:hover {
       top: 20vh;
       width: 100vw;
       left: 0;
+    }
+
+}
+
+/* tablet screen size */
+
+@media only screen 
+  and (min-device-width: 760px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .container{
+      font-size: 240px;
+    }
+
+    #navbarleft{
+      position: fixed;
+      padding: 20px;
+      font-size: 1vw;
+      color: white;
+    }
+
+    #logo {
+      font-size: 12vw;
+    }
+
+    /* navigation bars */
+
+    #navbar {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 6vw;
+      text-align: center;
+      color: white;
+      width: 50%;
+      top: 40vh;
+      left: 26vw;
+      padding: 0;
+    }
+
+    #navbarportfolio {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      top: 12vh;
+      font-size: 3vw;
+      text-transform: uppercase;
+      width: 100%;
+      color: white;
+      padding: 0;
+    }
+
+    #navbarabout {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      top: 12vh;
+      font-size: 3vw;
+      text-transform: uppercase;
+      width: 100%;
+      color: white;
+      padding: 0;
+    }
+
+    /* portfolio page */
+
+    #portfoliomenu {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 15%;
+      padding: 0;
+      top: 20vh;
+      left: 1vw;
+      color:  rgb(79, 78, 78);
+    }
+
+    div#portfoliomenu header{
+      padding: 20px;
+      color: #F230DF;
+      font-weight: 500;
+      font-size: 2vw;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    div#portfoliomenu a{
+      color:  rgb(79, 78, 78);
+      font-size: 2vw;
+      font-family: 'Poppins', sans-serif;
+      padding-left: 30px;
+      padding-bottom: 10px;
+      margin: 0;
+    }
+    
+    div#portfoliomenu a:hover {
+      color: white;
+    }
+
+    #work {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      padding-left: 25vw;;
+      padding-top: 20vh;
+    }
+
+    video.code{
+      padding-bottom: 0;
+      width: 90vw;
+      height: auto;
+    }
+    
+    img.milkyway, img.socialfakebig{
+      width: 90vw;
+      padding-bottom: 5vh;
+    }
+    
+    img.lobster{
+      width: 90vw;
+      padding-bottom: 1vh;
+    }
+    
+    img.illustration, img#case {
+      width: 90vw;
+      padding-bottom: 30px;
+      padding-left: 0;
+    }
+    
+    img.peoplemag, img.lesserafim, img.socialfake{
+      width: 90vw;
+      padding-left: 0; 
+    }
+    
+    img.peoplemag2 {
+      width: 90vw;
+    }
+
+    button#visit {
+      position: relative;
+      top: 10px;
+      left: 75vw;
+      background-color:#F230DF;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    /* about page  */
+
+    #about {
+      position: relative;
+      top: 20vh;
+      left: 5vw;
+      padding: 10px;
+      width: 90%;
+      margin-right: auto;
+      font-family:'Poppins', sans-serif; 
+      font-size: 3vw;
+      color: white;
+    }
+    
+    #hi{
+      font-size: 6vw;
+    }
+    
+    #profilepic{
+      position: relative;
+      top: 20vh;
+      width: 70vw;
+      left: 14vw;
+    }
+
+    button#resume {
+      position: relative;
+      background-color:#F230DF;
+      font-size: 3vw;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 15px;
     }
 
 }
