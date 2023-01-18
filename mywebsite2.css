@@ -512,11 +512,10 @@ button#visit:hover, button#resume:hover {
 
     #about {
       position: absolute;
-      top: 75vh;
+      top: 80vh;
       left: 0;
       padding: 10px;
       width: 100%;
-      margin-right: auto;
       font-family:'Poppins', sans-serif; 
       font-size: 4vw;
       color: white;
