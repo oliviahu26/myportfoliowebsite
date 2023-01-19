@@ -204,6 +204,13 @@ div#portfoliomenu a:hover {
   color: white;
 }
 
+div#work h1 {
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
 #work {
   display: flex;
   flex-direction: column;
