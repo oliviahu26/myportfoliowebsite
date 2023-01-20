@@ -158,13 +158,13 @@ p span#left:hover {
   padding: 30px;
   font-size: 1vw;
   top: 0.5vh;
-  left: 3vw;
+  left: 10vw;
   color: white;
 }
 
 #logo {
   font-family: 'Blocus';
-  font-size: 2vw;
+  font-size: 3.5vw;
   text-transform: uppercase;
 }
 
@@ -222,9 +222,10 @@ div#work h1 {
 video.code{
   padding-bottom: 50px;
   width: 55vw;
+  height: auto;
 }
 
-img.milkyway, img.socialfakebig{
+img.milkyway, img.socialfakeposters{
   width: 50vw;
   padding-bottom: 20px;
 }
@@ -234,7 +235,7 @@ img.lobster{
   padding-bottom: 5px;
 }
 
-img.illustration, img#case {
+img.illustration, img#case{
   width: 30vw;
   padding-bottom: 30px;
   padding-left: 10vw; 
@@ -244,7 +245,7 @@ img.peoplemag {
   width: 25vw;
 }
 
-img.lesserafim, img.socialfake{
+img.lesserafim{
   width: 22vw;
   padding: 5px;
 }
@@ -401,10 +402,10 @@ button#visit:hover, button#resume:hover {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      font-size: 6vw;
+      font-size: 5vw;
       text-align: center;
       color: white;
-      width: 50%;
+      width: 50vw;
       top: 40vh;
       left: 26vw;
       padding: 0;
@@ -418,7 +419,7 @@ button#visit:hover, button#resume:hover {
       top: 9vh;
       font-size: 5vw;
       text-transform: uppercase;
-      width: 100%;
+      width: 100vw;
       color: white;
       padding: 0;
     }
@@ -431,7 +432,7 @@ button#visit:hover, button#resume:hover {
       top: 9vh;
       font-size: 5vw;
       text-transform: uppercase;
-      width: 100%;
+      width: 100vw;
       color: white;
       padding: 0;
     }
@@ -462,22 +463,29 @@ button#visit:hover, button#resume:hover {
       color: white;
     }
 
+    div#work h1 {
+      color: white;
+      font-size: 4vw;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+    }    
+
     #work {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 100%;
+      width: 100vw;
       padding-left: 0;
       padding-top: 20vh;
     }
 
-    video.code{
+    video.code, video.animation{
       padding-bottom: 0;
       width: 100vw;
       height: auto;
     }
     
-    img.milkyway, img.socialfakebig{
+    img.milkyway, img.socialfakeposters{
       width: 100vw;
       padding-bottom: 5vh;
     }
@@ -493,7 +501,7 @@ button#visit:hover, button#resume:hover {
       padding-left: 0;
     }
     
-    img.peoplemag, img.lesserafim, img.socialfake{
+    img.peoplemag, img.lesserafim{
       width: 100vw;
       padding-left: 0; 
     }
@@ -654,13 +662,13 @@ button#visit:hover, button#resume:hover {
       padding-top: 20vh;
     }
 
-    video.code{
+    video.code, video.animation{
       padding-bottom: 0;
       width: 70vw;
       height: auto;
     }
     
-    img.milkyway, img.socialfakebig{
+    img.milkyway, img.socialfakeposters{
       width: 70vw;
       padding-bottom: 5vh;
     }
@@ -670,13 +678,13 @@ button#visit:hover, button#resume:hover {
       padding-bottom: 1vh;
     }
     
-    img.illustration, img#case {
+    img.illustration, img#case{
       width: 70vw;
       padding-bottom: 30px;
       padding-left: 0;
     }
     
-    img.peoplemag, img.lesserafim, img.socialfake{
+    img.peoplemag, img.lesserafim{
       width: 70vw;
       padding-left: 0; 
     }
