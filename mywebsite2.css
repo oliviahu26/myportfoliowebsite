@@ -164,7 +164,7 @@ p span#left:hover {
 
 #logo {
   font-family: 'Blocus';
-  font-size: 3.5vw;
+  font-size: 3vw;
   text-transform: uppercase;
 }
 
@@ -250,7 +250,7 @@ img.lesserafim{
   padding: 5px;
 }
 
-img.peoplemag2 {
+img.peoplemag2, img.tbd {
   width: 50vw;
 }
 
