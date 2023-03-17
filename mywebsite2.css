@@ -87,7 +87,8 @@ p#name1, p#name3 {
 
 #credit {
   position: relative;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
 }
 
 p span:hover { 
@@ -210,18 +211,22 @@ div#portfoliomenu a {
 }
 
 div#portfoliomenu a:hover {
-  color: white;
+  /* color: white; */
+  color: #F230DF;
+
 }
 
 div#work h1 {
-  color: white;
+  /* color: white; */
+  color:  rgb(79, 78, 78);
   font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
 }
 
 div#work h2 {
-  color: white;
+  /* color: white; */
+  color:  rgb(79, 78, 78);
   font-size: 1vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
