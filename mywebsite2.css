@@ -6,7 +6,8 @@ html{
 }
 
 body{
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+  background-color: white;
 }
 
 @font-face {
@@ -127,7 +128,8 @@ p span#left:hover {
   top: 0;
   font-size: 1vw;
   width: 30%;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
 
@@ -140,7 +142,8 @@ p span#left:hover {
   font-size: 1vw;
   text-transform: uppercase;
   width: 30%;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
 
@@ -153,7 +156,8 @@ p span#left:hover {
   font-size: 1vw;
   text-transform: uppercase;
   width: 30%;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
 
@@ -163,7 +167,8 @@ p span#left:hover {
   font-size: 1vw;
   top: 0.5vh;
   left: 10vw;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
 }
 
 #logo {
@@ -274,19 +279,22 @@ embed#resume {
 
 a:link {
   text-decoration: none;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   font-family: 'Poppins', sans-serif;
 }
 
 a:visited {
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
 }
 
 #navbar a, #navbarportfolio a, #navbarabout a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   text-transform: uppercase;
   margin: 0 10px;
 }
@@ -332,7 +340,8 @@ a:visited {
   margin-right: auto;
   font-family:'Poppins', sans-serif; 
   font-size: 16px;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
 }
 
 #hi{
@@ -352,7 +361,8 @@ button#resume{
   background-color:#F230DF;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -365,7 +375,8 @@ button#visit{
   background-color:#F230DF;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  color: white;
+  /* color: white; */
+  color: rgb(79, 78, 78);
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -400,7 +411,8 @@ button#visit:hover, button#resume:hover {
       position: fixed;
       padding: 20px;
       font-size: 1vw;
-      color: white;
+      /* color: white; */
+      color: rgb(79, 78, 78);
     }
 
     #logo {
@@ -416,7 +428,6 @@ button#visit:hover, button#resume:hover {
       justify-content: space-around;
       font-size: 5vw;
       text-align: center;
-      color: white;
       width: 50vw;
       top: 40vh;
       left: 26vw;
@@ -432,7 +443,6 @@ button#visit:hover, button#resume:hover {
       font-size: 5vw;
       text-transform: uppercase;
       width: 100vw;
-      color: white;
       padding: 0;
     }
 
@@ -445,7 +455,6 @@ button#visit:hover, button#resume:hover {
       font-size: 5vw;
       text-transform: uppercase;
       width: 100vw;
-      color: white;
       padding: 0;
     }
 
@@ -472,11 +481,11 @@ button#visit:hover, button#resume:hover {
     }
     
     div#portfoliomenu ::after {
-      color: white;
+      /* color: white; */
+      color: rgb(79, 78, 78);
     }
 
     div#work h1 {
-      color: white;
       font-size: 4vw;
       font-family: 'Poppins', sans-serif;
       font-weight: 100;
@@ -529,7 +538,8 @@ button#visit:hover, button#resume:hover {
       background-color:#F230DF;
       font-size: 15px;
       font-family: 'Poppins', sans-serif;
-      color: white;
+      /* color: white; */
+      color: rgb(79, 78, 78);
       border: none;
       border-radius: 5px;
       padding: 10px;
@@ -581,7 +591,6 @@ button#visit:hover, button#resume:hover {
       position: fixed;
       padding: 20px;
       font-size: 1vw;
-      color: white;
     }
 
     #logo {
@@ -597,7 +606,6 @@ button#visit:hover, button#resume:hover {
       justify-content: space-around;
       font-size: 6vw;
       text-align: center;
-      color: white;
       width: 50%;
       top: 40vh;
       left: 26vw;
@@ -613,7 +621,6 @@ button#visit:hover, button#resume:hover {
       font-size: 3vw;
       text-transform: uppercase;
       width: 100%;
-      color: white;
       padding: 0;
     }
 
@@ -626,7 +633,6 @@ button#visit:hover, button#resume:hover {
       font-size: 3vw;
       text-transform: uppercase;
       width: 100%;
-      color: white;
       padding: 0;
     }
 
@@ -662,7 +668,8 @@ button#visit:hover, button#resume:hover {
     }
     
     div#portfoliomenu a:hover {
-      color: white;
+      /* color: white; */
+      color: rgb(79, 78, 78);
     }
 
     #work {
@@ -712,7 +719,8 @@ button#visit:hover, button#resume:hover {
       background-color:#F230DF;
       font-size: 15px;
       font-family: 'Poppins', sans-serif;
-      color: white;
+      /* color: white; */
+      color: rgb(79, 78, 78);
       border: none;
       border-radius: 5px;
       padding: 10px;
@@ -729,7 +737,6 @@ button#visit:hover, button#resume:hover {
       margin-right: auto;
       font-family:'Poppins', sans-serif; 
       font-size: 3vw;
-      color: white;
     }
     
     #hi{
@@ -748,7 +755,6 @@ button#visit:hover, button#resume:hover {
       background-color:#F230DF;
       font-size: 3vw;
       font-family: 'Poppins', sans-serif;
-      color: white;
       border: none;
       border-radius: 5px;
       padding: 15px;
