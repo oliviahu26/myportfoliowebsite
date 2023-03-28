@@ -6,8 +6,7 @@ html{
 }
 
 body{
-  /* background-color: rgb(0, 0, 0); */
-  background-color: white;
+  background-color: #ffffff;
 }
 
 @font-face {
@@ -119,6 +118,19 @@ p span#left:hover {
   to {
     background-position: 200% center;
   }
+}
+
+.toolbar {
+  list-style: none;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 95%;
+}
+
+li {
+  padding: 2px;
 }
 
 #navbar {
@@ -532,7 +544,7 @@ button#visit:hover, button#resume:hover {
       padding-left: 0;
     }
     
-    img.peoplemag, img.lesserafim, img.tbd{
+    img.peoplemag, img.lesserafim, img.tbd, img.manholes{
       width: 100vw;
       padding-left: 0; 
     }
