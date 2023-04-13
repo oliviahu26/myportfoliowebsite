@@ -14,9 +14,13 @@ body{
   src: url("Blocus.otf");
 }
 
+img.branding {
+  height: 20vh;
+}
+
 .container{
   white-space: nowrap;
-  font-size: 200px;
+  font-size: 350px;
   font-family: 'Blocus';
   height: 100vh;
   width: 100vw;
@@ -28,15 +32,47 @@ p#name0 a, p#name1 a, p#name2 a, p#name3 a, p#name4 a{
   font-family: 'Blocus';
 }
 
-p#name0, p#name2, p#name4 {
+/* p#name0, p#name2, p#name4 { */
+
+
+
+/* p#name1 {
   position: relative;
   text-align: center;
   margin: 0;
-  width: 200%;
+  width: 600%;
    
-  animation: scroll-slowr 40s linear infinite;
-  -moz-animation: scroll-slowr 40s linear infinite;
-  -webkit-animation: scroll-slowr 40s linear infinite;
+  animation: scroll-slowl 45s linear infinite;
+  -moz-animation: scroll-slowl 45s linear infinite;
+  -webkit-animation: scroll-slowl 45s linear infinite;
+   
+  transform:translateX(100%);
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+ }
+   
+ @keyframes scroll-slowl {
+  0%   { 
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(0%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-50%); 
+  }
+ } */
+
+p#name1 {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 650%;
+   
+  animation: scroll-slowr 45s linear infinite;
+  -moz-animation: scroll-slowr 45s linear infinite;
+  -webkit-animation: scroll-slowr 45s linear infinite;
    
   transform:translateX(100%);
   -moz-transform:translateX(100%);
@@ -56,31 +92,60 @@ p#name0, p#name2, p#name4 {
   }
  }
 
-p#name1, p#name3 {
+
+p#name2 {
   position: relative;
   text-align: center;
   margin: 0;
-  width: 200%;
+  width: 600%;
    
-  animation: scroll-slowl 40s linear infinite;
-  -moz-animation: scroll-slowl 40s linear infinite;
-  -webkit-animation: scroll-slowl 40s linear infinite;
+  animation: scroll-slowr 45s linear infinite;
+  -moz-animation: scroll-slowr 45s linear infinite;
+  -webkit-animation: scroll-slowr 45s linear infinite;
    
   transform:translateX(100%);
   -moz-transform:translateX(100%);
   -webkit-transform:translateX(100%);	
  }
    
- @keyframes scroll-slowl {
+ @keyframes scroll-slowr {
   0%   { 
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
-  transform: translateX(0%); 		
+  transform: translateX(-50%); 		
   }
   100% { 
   -moz-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
-  transform: translateX(-50%); 
+  transform: translateX(0%); 
+  }
+ }
+
+p#name3 {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 600%;
+   
+  animation: scroll-slowr 60s linear infinite;
+  -moz-animation: scroll-slowr 60s linear infinite;
+  -webkit-animation: scroll-slowr 60s linear infinite;
+   
+  transform:translateX(100%);
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+ }
+   
+ @keyframes scroll-slowr {
+  0%   { 
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(-50%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(0%); 
   }
  }
 
@@ -233,7 +298,7 @@ div#work h1 {
   color:  rgb(79, 78, 78);
   font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
