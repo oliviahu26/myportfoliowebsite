@@ -234,6 +234,16 @@ div#work h1 {
   font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.description {
+  color: rgb(79, 78, 78);
+  font-size: 0.8vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  width: 25vw;
+  padding-bottom: 10px;
 }
 
 div#work h2 {
