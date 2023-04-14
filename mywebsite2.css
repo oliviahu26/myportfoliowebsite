@@ -496,11 +496,11 @@ button#visit:hover, button#resume:hover {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     body {
-      background-color: black;
-      color: white;
+      background-color: white;
     }
 
     .container{
+      padding-top: 10vh;
       font-size: 170px;
     }
 
@@ -508,7 +508,6 @@ button#visit:hover, button#resume:hover {
       position: fixed;
       padding: 20px;
       font-size: 1vw;
-      /* color: white; */
       color: rgb(79, 78, 78);
     }
 
@@ -624,7 +623,7 @@ button#visit:hover, button#resume:hover {
       padding-left: 0; 
     }
     
-    img.peoplemag2 {
+    img.peoplemag2, img.starbucks{
       width: 100vw;
     }
 
@@ -652,7 +651,7 @@ button#visit:hover, button#resume:hover {
       width: 100%;
       font-family:'Poppins', sans-serif; 
       font-size: 4vw;
-      color: white;
+      color: rgb(79, 78, 78);
     }
     
     #hi{
