@@ -14,12 +14,12 @@ body{
   src: url("Blocus.otf");
 }
 
-img.branding {
-  height: 20vh;
+img.landing {
+  height: 86vh;
 }
 
 .container{
-  padding-top: 100px;
+  padding-top: 140px;
   white-space: nowrap;
   font-size: 300px;
   font-family: 'Blocus';
@@ -32,9 +32,6 @@ p#name0 a, p#name1 a, p#name2 a, p#name3 a, p#name4 a{
   color: rgb(79, 78, 78);
   font-family: 'Blocus';
 }
-
-/* p#name0, p#name2, p#name4 { */
-
 
 
 /* p#name1 {
@@ -69,11 +66,11 @@ p#name1 {
   position: relative;
   text-align: center;
   margin: 0;
-  width: 650%;
+  width: 500%;
    
-  animation: scroll-slowr 45s linear infinite;
-  -moz-animation: scroll-slowr 45s linear infinite;
-  -webkit-animation: scroll-slowr 45s linear infinite;
+  animation: scroll-slowr 25s linear infinite;
+  -moz-animation: scroll-slowr 25s linear infinite;
+  -webkit-animation: scroll-slowr 25s linear infinite;
    
   transform:translateX(100%);
   -moz-transform:translateX(100%);
@@ -94,7 +91,7 @@ p#name1 {
  }
 
 
-p#name2 {
+/* p#name2 {
   position: relative;
   text-align: center;
   margin: 0;
@@ -148,11 +145,10 @@ p#name3 {
   -webkit-transform: translateX(-100%);
   transform: translateX(0%); 
   }
- }
+ } */
 
 #credit {
-  position: relative;
-  /* color: white; */
+  position: fixed;
   color: rgb(79, 78, 78);
 }
 
@@ -204,10 +200,9 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  top: 0;
+  top: 2vh;
   font-size: 1vw;
   width: 30%;
-  /* color: white; */
   color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
@@ -217,11 +212,10 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  top: 0;
+  top: 2vh;
   font-size: 1vw;
   text-transform: uppercase;
   width: 30%;
-  /* color: white; */
   color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
@@ -231,11 +225,10 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  top: 0;
+  top: 2vh;
   font-size: 1vw;
   text-transform: uppercase;
   width: 30%;
-  /* color: white; */
   color: rgb(79, 78, 78);
   padding: 30px 35vw;
 }
@@ -244,9 +237,8 @@ li {
   position: fixed;
   padding: 30px;
   font-size: 1vw;
-  top: 0.5vh;
+  top: 2vh;
   left: 10vw;
-  /* color: white; */
   color: rgb(79, 78, 78);
 }
 
@@ -289,13 +281,10 @@ div#portfoliomenu a {
 }
 
 div#portfoliomenu a:hover {
-  /* color: white; */
   color: #F230DF;
-
 }
 
-div#work h1 {
-  /* color: white; */
+h1 {
   color:  rgb(79, 78, 78);
   font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
@@ -312,26 +301,69 @@ div#work h1 {
   padding-bottom: 10px;
 }
 
-div#work h2 {
-  /* color: white; */
-  color:  rgb(79, 78, 78);
+h2 {
+  color: rgb(79, 78, 78);
   font-size: 1vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
 }
 
-#work {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-top: 20vh;
-  padding-left: 30vw;
+div#work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 2vw;
+    padding-top: 15vh;
+    padding-left: 3vw;
+    padding-bottom: 10vh;
+}
+
+.overlay {
+  position: relative;
+  top: -38.3vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 30vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img.projectimage {
+  display: block;
+  width: 30vw;
 }
 
 video.code{
   padding-bottom: 50px;
-  width: 55vw;
+  width: 50vw;
   height: auto;
+}
+
+div.projectpage {
+  padding-top: 20vh;
+  padding-left: 25vw;
 }
 
 img.milkyway, img.socialfakeposters{
@@ -459,7 +491,6 @@ button#resume{
   background-color:#F230DF;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  /* color: white; */
   color: rgb(79, 78, 78);
   border: none;
   border-radius: 5px;
@@ -468,18 +499,15 @@ button#resume{
 
 button#visit{
   position: relative;
-  top: -100px;
   left: 50px;
   background-color:#F230DF;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  /* color: white; */
   color: rgb(79, 78, 78);
   border: none;
   border-radius: 5px;
   padding: 15px;
 }
-
 
 button#visit:hover, button#resume:hover {
   background-color: white;
