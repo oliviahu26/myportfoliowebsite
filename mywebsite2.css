@@ -357,13 +357,13 @@ img.projectimage {
 
 video.code{
   padding-bottom: 50px;
-  width: 50vw;
+  width: 70vw;
   height: auto;
 }
 
 div.projectpage {
   padding-top: 20vh;
-  padding-left: 25vw;
+  padding-left: 15vw;
 }
 
 img.milkyway, img.socialfakeposters{
@@ -372,19 +372,8 @@ img.milkyway, img.socialfakeposters{
 }
 
 img.manholes {
-  width: 60vw;
+  width: 70vw;
   padding-top: 50px;
-}
-
-img.lobster{
-  width: 50vw;
-  padding-bottom: 5px;
-}
-
-img.illustration, img#case{
-  width: 30vw;
-  padding-bottom: 30px;
-  padding-left: 10vw; 
 }
 
 img.peoplemag {
@@ -392,12 +381,12 @@ img.peoplemag {
 }
 
 img.lesserafim, img#hats {
-  width: 40vw;
+  width: 60vw;
   padding: 5px;
 }
 
 img.peoplemag2, img.tbd, img.starbucks{
-  width: 50vw;
+  width: 70vw;
   padding-bottom: 10px;
 }
 
