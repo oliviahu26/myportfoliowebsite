@@ -28,11 +28,11 @@ img.landing {
   overflow: hidden;
 }
 
+/* 
 p#name0 a, p#name1 a, p#name2 a, p#name3 a, p#name4 a{
   color: rgb(79, 78, 78);
   font-family: 'Blocus';
-}
-
+} */
 
 /* p#name1 {
   position: relative;
@@ -151,7 +151,7 @@ p#name3 {
   position: fixed;
   color: rgb(79, 78, 78);
 }
-
+/* 
 p span:hover { 
   background: linear-gradient(to right, #00F0FF 20%, #F230DF 50%, #f09e3a 80%);
   background-size: 200% auto;
@@ -180,7 +180,7 @@ p span#left:hover {
   to {
     background-position: 200% center;
   }
-}
+} */
 
 .toolbar {
   list-style: none;
@@ -285,7 +285,7 @@ div#portfoliomenu a:hover {
 } */
 
 h1 {
-  color:  rgb(79, 78, 78);
+  color: rgb(79, 78, 78);
   font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -319,7 +319,7 @@ div#work {
     padding-bottom: 10vh;
 }
 
-.overlay {
+/* .overlay {
   position: relative;
   top: -38.3vh;
   bottom: 0;
@@ -330,14 +330,14 @@ div#work {
   opacity: 0;
   transition: .5s ease;
   background-color: black;
-}
+} */
 
-.project:hover .overlay {
+/* .project:hover .overlay {
   opacity: 1;
   cursor: pointer;
-}
+} */
 
-.text {
+/* .text {
   position: absolute;
   color: white;
   font-size: 1vw;
@@ -348,11 +348,16 @@ div#work {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 
 img.projectimage {
   display: block;
   width: 30vw;
+}
+
+img.projectimage:hover {
+  opacity: 0.5;
+  transition: .5s ease;
 }
 
 video.code{
