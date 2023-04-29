@@ -252,7 +252,7 @@ div#navbarright a#logo:hover {
   font-style: normal;
 }
 
-#portfoliomenu {
+/* #portfoliomenu {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -282,7 +282,7 @@ div#portfoliomenu a {
 
 div#portfoliomenu a:hover {
   color: #F230DF;
-}
+} */
 
 h1 {
   color:  rgb(79, 78, 78);
@@ -459,7 +459,6 @@ a:visited {
   margin-right: auto;
   font-family:'Poppins', sans-serif; 
   font-size: 16px;
-  /* color: white; */
   color: rgb(79, 78, 78);
 }
 
@@ -524,13 +523,14 @@ button#visit:hover, button#resume:hover {
 
     #navbarleft{
       position: fixed;
-      padding: 20px;
+      padding: 10px;
       font-size: 1vw;
       color: rgb(79, 78, 78);
     }
 
     #logo {
-      font-size: 12vw;
+      font-size: 10vw;
+      padding-left: 15vw;
     }
 
     /* navigation bars */
@@ -574,7 +574,7 @@ button#visit:hover, button#resume:hover {
 
     /* portfolio page */
 
-    #portfoliomenu {
+    /* #portfoliomenu {
       position: fixed;
       display: flex;
       flex-direction: row;
@@ -595,23 +595,46 @@ button#visit:hover, button#resume:hover {
     }
     
     div#portfoliomenu ::after {
-      /* color: white; */
       color: rgb(79, 78, 78);
-    }
+    } */
 
-    div#work h1 {
+    /* div#work h1 {
       font-size: 4vw;
       font-family: 'Poppins', sans-serif;
       font-weight: 100;
-    }    
+    }     */
 
-    #work {
+    h1 {
+      font-size: 5vw;
+    }
+
+    p.description{
+      font-size: 3.5vw;
+      width: 90vw;
+      padding-bottom: 0;
+    }
+    
+    h2{
+      font-size: 3vw;
+    }
+
+    div#work {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       width: 100vw;
       padding-left: 0;
       padding-top: 20vh;
+    }
+
+    div.projectpage {
+      padding-top: 20vh;
+      padding-left: 0;
+    }
+
+    img.projectimage {
+      display: block;
+      width: 100vw;
     }
 
     video.code, video.animation{
@@ -693,8 +716,8 @@ button#visit:hover, button#resume:hover {
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body {
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: rgb(79, 78, 78);
     }
 
     .container{
@@ -752,7 +775,7 @@ button#visit:hover, button#resume:hover {
 
     /* portfolio page */
 
-    #portfoliomenu {
+    /* #portfoliomenu {
       position: fixed;
       display: flex;
       flex-direction: column;
@@ -762,9 +785,9 @@ button#visit:hover, button#resume:hover {
       top: 20vh;
       left: 1vw;
       color:  rgb(79, 78, 78);
-    }
+    } */
 
-    div#portfoliomenu header{
+    /* div#portfoliomenu header{
       padding: 20px;
       color: #F230DF;
       font-weight: 500;
@@ -779,20 +802,19 @@ button#visit:hover, button#resume:hover {
       padding-left: 30px;
       padding-bottom: 10px;
       margin: 0;
-    }
+    } */
     
-    div#portfoliomenu a:hover {
-      /* color: white; */
+    /* div#portfoliomenu a:hover {
       color: rgb(79, 78, 78);
-    }
+    } */
 
-    #work {
+    div#work {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       width: 100vw;
       padding-left: 25vw;;
-      padding-top: 20vh;
+      padding-top: 30vh;
     }
 
     video.code, video.animation{
@@ -833,7 +855,6 @@ button#visit:hover, button#resume:hover {
       background-color:#F230DF;
       font-size: 15px;
       font-family: 'Poppins', sans-serif;
-      /* color: white; */
       color: rgb(79, 78, 78);
       border: none;
       border-radius: 5px;
