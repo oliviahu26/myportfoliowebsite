@@ -368,7 +368,12 @@ video.code{
 
 div.projectpage {
   padding-top: 20vh;
-  padding-left: 15vw;
+  padding-left: 20vw;
+}
+
+img.time{
+  width: 80%;
+  padding-bottom: 20px;
 }
 
 img.milkyway, img.socialfakeposters{
