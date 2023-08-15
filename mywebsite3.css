@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* macbook pro 16 inch screen */
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: "Blocus";
+  src: url("Blocus.otf");
+}
+
+img.logo{
+    position: fixed;
+    width: 70vw;
+    top: 40vh;
+    left: 15vw;
+}
+
+img.landing {
+  height: 80vh;
+}
+
+#credit {
+  position: fixed;
+  color: rgb(79, 78, 78);
+}
+
+.toolbar {
+  list-style: none;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 95%;
+}
+
+li {
+  padding: 2px;
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 2vh;
+  font-size: 1.3vw;
+  width: 30%;
+  color: rgb(79, 78, 78);
+  padding: 30px 35vw;
+}
+
+div#navbarright a#logo:hover {
+  font-style: normal;
+}
+
+a:link {
+  text-decoration: none;
+  /* color: white; */
+  color: rgb(79, 78, 78);
+  font-family: 'Blocus', sans-serif;
+}
+
+a:visited {
+  /* color: white; */
+  color: rgb(79, 78, 78);
+}
+
+#navbar a, #navbarportfolio a, #navbarabout a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  /* color: white; */
+  color: rgb(79, 78, 78);
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+#navbar a,
+#navbar a:after,
+#navbar a:before,
+#navbarportfolio a, 
+#navbarportfolio a:after,
+#navbarportfolio a:before,
+#navbarabout a,
+#navbarabout a:after,
+#navbarabout a:before {
+  position: relative;
+  transition: all .5s;
+}
+
+#navbar a:after, #navbarportfolio a:after, #navbarabout a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ' ';
+  color: transparent;
+  background:#ffffff;;
+  height: 1px;
+}
+
+#navbar a:hover, #navbarportfolio a:hover, #navbarabout a:hover {
+  color: #FffffF;
+}
+
+#navbar a:hover:after, #navbarportfolio a:hover:after, #navbarabout a:hover:after {
+  width: 100%;
+}
+
