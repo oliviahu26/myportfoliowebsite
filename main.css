@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 
 /* macbook pro 16 inch screen */
 html{
@@ -14,11 +14,16 @@ body{
   src: url("Blocus.otf");
 }
 
+@font-face{
+  font-family: "Nuances";
+  src: url("Nuances.otf");
+}
+
 img.logo{
     position: fixed;
-    width: 70vw;
-    top: 40vh;
-    left: 15vw;
+    width: 30vw;
+    top: 8vh;
+    left: 35vw;
 }
 
 img.landing {
@@ -48,7 +53,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  top: 2vh;
+  top: 18vh;
   font-size: 1.3vw;
   width: 30%;
   color: rgb(79, 78, 78);
@@ -114,4 +119,96 @@ a:visited {
 #navbar a:hover:after, #navbarportfolio a:hover:after, #navbarabout a:hover:after {
   width: 100%;
 }
+
+div#description {
+  position: absolute;
+  left: 26vw;
+  top: 20vh;
+  font-family: "Nuances", serif;
+  font-size: 1.7vw;
+  color: rgb(79, 78, 78);
+  padding: 20px;
+  width: 45vw;
+  text-align: center;
+}
+
+div#work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 2vw;
+  padding-top: 50vh;
+  padding-left: 3vw;
+  padding-bottom: 10vh;
+}
+
+
+img.projectimage {
+display: block;
+width: 30vw;
+}
+
+img.projectimage:hover {
+opacity: 0.5;
+transition: .5s ease;
+}
+
+video.code{
+padding-bottom: 50px;
+width: 70vw;
+height: auto;
+}
+
+div.projectpage {
+padding-top: 20vh;
+padding-left: 15vw;
+}
+
+img.time{
+width: 80%;
+padding-bottom: 20px;
+}
+
+img.milkyway, img.socialfakeposters{
+width: 70vw;
+padding-bottom: 20px;
+}
+
+img.manholes {
+width: 70vw;
+padding-top: 50px;
+}
+
+img.peoplemag {
+width: 25vw;
+}
+
+img.lesserafim, img#hats {
+width: 60vw;
+padding: 5px;
+}
+
+img.peoplemag2, img.tbd, img.starbucks{
+width: 70vw;
+padding-bottom: 10px;
+}
+
+embed#resume {
+position: absolute;
+left: 40vw;
+top: 10h;
+}
+
+a:link {
+text-decoration: none;
+/* color: white; */
+color: rgb(79, 78, 78);
+}
+
+a:visited {
+/* color: white; */
+color: rgb(79, 78, 78);
+}
+
 
