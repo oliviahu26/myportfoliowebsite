@@ -21,17 +21,24 @@ html{
   }
   
   img.logo{
-      position: absolute;
-      width: 18vw;
-      top: 8vh;
-      left: 40vw;
+    position: absolute;
+    width: 18vw;
+    top: 8vh;
+    left: 40vw;
+  }
+
+  img.logo:hover {
+    cursor: pointer;
+    width: 20vw;
+    left: 39vw;
+    transition: 0.5s;
   }
 
   img#profilepic{
-      position: absolute;
-      left: 10vw;
-      top: 20vh;
-      width: 40vw;
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+    width: 40vw;
   }
   
   div#about {
@@ -57,7 +64,9 @@ html{
 
   button#resume:hover{
     transition: 0.5s;
-
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 124, 231);
   }
   
   a {
@@ -67,7 +76,7 @@ html{
   }
   
   a:visited{
-    color: white;
+    color: rgb(164, 162, 162);
   }
   
   a:hover {
