@@ -25,9 +25,10 @@ img.logo{
     width: 25vw;
     top: 8vh;
     left: 37vw;
+    cursor: pointer;
 }
 
-div#description {
+p#description {
   position: absolute;
   left: 30vw;
   top: 20vh;
@@ -38,7 +39,6 @@ div#description {
   width: 36vw;
   text-align: center;
 }
-
 
 a#link {
   text-decoration: none;
@@ -57,16 +57,42 @@ div#work {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 2vw;
+  grid-row-gap: 1vw;
   padding-top: 50vh;
   padding-left: 3vw;
+  padding-right: 3vw;
   padding-bottom: 10vh;
+}
+
+h1 {
+  position: absolute;
+  left: 30vw;
+  top: 20vh;
+  font-family: "Nuances", serif;
+  font-size: 2vw;
+  color: rgb(164, 162, 162);
+  padding: 20px;
+  width: 36vw;
+  text-align: center;
+}
+
+p.description {
+  position: absolute;
+  left: 28vw;
+  top: 30vh;
+  font-family: "Nuances", serif;
+  font-size: 1.2vw;
+  color: rgb(164, 162, 162);
+  padding: 20px;
+  width: 40vw;
+  text-align: center;
 }
 
 
 img.projectimage {
 display: block;
 width: 30vw;
+border-radius: 10px;
 }
 
 img.projectimage:hover {
@@ -81,7 +107,7 @@ height: auto;
 }
 
 div.projectpage {
-padding-top: 20vh;
+padding-top: 53vh;
 padding-left: 15vw;
 }
 
