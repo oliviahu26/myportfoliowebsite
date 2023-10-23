@@ -150,16 +150,58 @@ left: 40vw;
 top: 10h;
 }
 
-a:link {
-text-decoration: none;
-/* color: white; */
-color: rgb(164, 162, 162);
+img#profilepic{
+  position: absolute;
+  left: 20vw;
+  top: 25vh;
+  width: 30vw;
+  border-radius: 10px;
 }
 
-a:visited {
-/* color: white; */
-color: rgb(164, 162, 162);
+div#about {
+  position: absolute;
+  left: 53vw;
+  top: 25vh;
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: rgb(164, 162, 162);
+  padding: 20px;
+  width: 36vw;
 }
+
+button#resume {
+  border: rgb(164, 162, 162);
+  stroke-width: 2px;
+  color: rgb(164, 162, 162);
+  font-family: "Nuances", serif;
+  font-size: 1vw;
+  padding: 10px;
+  background-color: black;
+}
+
+button#resume:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+a {
+  font-family: "Nuances", serif;
+  text-decoration: none;
+  color: rgb(164, 162, 162);
+}
+
+a:visited{
+  color: rgb(164, 162, 162);
+}
+
+a:hover {
+  font-family: "Nuances", serif;
+  color: white;
+  transition: 0.5s;
+}
+
 
 /* PHONE SCREEN SIZE */
 
