@@ -212,71 +212,96 @@ a:hover {
 
     img.logo{
         position: absolute;
-        width: 95vw;
-        top: 8vh;
-        left: 5vw;
+        width: 85vw;
+        top: 5vh;
+        left: 1vw;
     }
     
-    div#description {
+    p#description {
       position: absolute;
       left: 5vw;
       top: 15vh;
       font-family: "Nuances", serif;
-      font-size: 5vw;
+      font-size: 6vw;
       color: rgb(164, 162, 162);
       padding: 20px;
       width: 85vw;
       text-align: center;
     }
   
-  div#work {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100vw;
-    padding-left: 0;
-    padding-top: 40vh;
-  }
-
-  div.projectpage {
-    padding-top: 20vh;
-    padding-left: 0;
-  }
-
-  img.projectimage {
-    display: block;
-    width: 100vw;
-  }
-
-  video.code, video.animation{
-    padding-bottom: 0;
-    width: 100vw;
-    height: auto;
-  }
-
-  img.milkyway, img.socialfakeposters{
-    width: 100vw;
-    padding-bottom: 5vh;
-  }
-
-  img.lobster{
-    width: 100vw;
-    padding-bottom: 1vh;
-  }
-
-  img.illustration, img#case {
-    width: 100vw;
-    padding-bottom: 30px;
-    padding-left: 0;
-  }
-
-  img.peoplemag, img.lesserafim, img.tbd, img.manholes{
-    width: 100vw;
-    padding-left: 0; 
-  }
-
-  img.peoplemag2, img.starbucks{
-    width: 100vw;
-  }
+    div#work {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100vw;
+      padding-left: 0;
+      padding-top: 40vh;
     }
+
+    h1{
+      position: absolute;
+      top: 10vh;
+      left: 11vw;
+      font-family: "Nuances", serif;
+      font-size: 6vw;
+      color: rgb(164, 162, 162);
+      width: 50vw;
+      text-align: center;
+    }
+    
+    p.description {
+      position: absolute;
+      top: 15vh;
+      left: 15vw;
+      font-family: "Nuances", serif;
+      font-size: 3vw;
+      color: rgb(164, 162, 162);
+      text-align: center;
+    }
+
+    div.projectpage {
+      padding-top: 20vh;
+      padding-left: 0;
+    }
+
+    img.projectimage {
+      display: block;
+      width: 100vw;
+    }
+
+    img.visualVessel {
+      width: 85vw;
+      }
+
+    video.code, video.animation{
+      padding-bottom: 0;
+      width: 100vw;
+      height: auto;
+    }
+
+    img.milkyway, img.socialfakeposters{
+      width: 100vw;
+      padding-bottom: 5vh;
+    }
+
+    img.lobster{
+      width: 100vw;
+      padding-bottom: 1vh;
+    }
+
+    img.illustration, img#case {
+      width: 100vw;
+      padding-bottom: 30px;
+      padding-left: 0;
+    }
+
+    img.peoplemag, img.lesserafim, img.tbd, img.manholes{
+      width: 100vw;
+      padding-left: 0; 
+    }
+
+    img.peoplemag2, img.starbucks{
+      width: 100vw;
+    }
+      }
 
