@@ -216,9 +216,9 @@ a:hover {
 
     img.logo{
         position: absolute;
-        width: 85vw;
+        width: 100%;
         top: 5vh;
-        left: 1vw;
+        left: 2vw;
     }
     
     p#description {
@@ -243,24 +243,11 @@ a:hover {
     }
 
     h1{
-      position: absolute;
-      top: 10vh;
-      left: 11vw;
-      font-family: "Nuances", serif;
-      font-size: 6vw;
-      color: rgb(164, 162, 162);
-      width: 50vw;
-      text-align: center;
+      display: none;
     }
     
     div.description {
-      position: fixed;
-      top: 15vh;
-      left: 5vw;
-      text-align: left;
-      font-family: "Nuances", serif;
-      font-size: 3vw;
-      color: rgb(164, 162, 162);
+      display: none
     }
 
     div.projectpage {
