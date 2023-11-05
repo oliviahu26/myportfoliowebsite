@@ -28,7 +28,7 @@ img.logo{
     cursor: pointer;
 }
 
-p#description {
+p#HomePageDescription {
   position: absolute;
   left: 30vw;
   top: 20vh;
@@ -65,27 +65,23 @@ div#work {
 }
 
 h1 {
-  position: absolute;
-  left: 30vw;
-  top: 20vh;
+  position: fixed;
+  top: 25vh;
+  text-align: left;
   font-family: "Nuances", serif;
   font-size: 2vw;
   color: rgb(164, 162, 162);
-  padding: 20px;
-  width: 36vw;
-  text-align: center;
 }
 
-p.description {
-  position: absolute;
-  left: 28vw;
-  top: 30vh;
+div.description {
+  position: fixed;
+  left: 3vw;
+  top: 35vh;
+  width: 18vw;
+  text-align: left;
   font-family: "Nuances", serif;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   color: rgb(164, 162, 162);
-  padding: 20px;
-  width: 40vw;
-  text-align: center;
 }
 
 
@@ -107,8 +103,8 @@ height: auto;
 }
 
 div.projectpage {
-padding-top: 53vh;
-padding-left: 15vw;
+padding-top: 25vh;
+padding-left: 25vw;
 }
 
 img.time{
@@ -249,14 +245,14 @@ a:hover {
       text-align: center;
     }
     
-    p.description {
-      position: absolute;
+    div.description {
+      position: fixed;
       top: 15vh;
-      left: 15vw;
+      left: 5vw;
+      text-align: left;
       font-family: "Nuances", serif;
       font-size: 3vw;
       color: rgb(164, 162, 162);
-      text-align: center;
     }
 
     div.projectpage {
