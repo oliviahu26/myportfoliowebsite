@@ -21,10 +21,10 @@ body{
 }
 
 img.logo{
-    position: absolute;
-    width: 25vw;
+    position: fixed;
+    width: 20vw;
     top: 8vh;
-    left: 37vw;
+    left: 2vw;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ height: auto;
 }
 
 div.projectpage {
-padding-top: 25vh;
+padding-top: 10vh;
 padding-left: 25vw;
 }
 
