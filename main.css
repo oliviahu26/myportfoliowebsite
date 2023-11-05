@@ -28,6 +28,14 @@ img.logo{
     cursor: pointer;
 }
 
+img.logoHome{
+  position: fixed;
+  width: 25vw;
+  top: 8vh;
+  left: 36vw;
+  cursor: pointer;
+}
+
 p#HomePageDescription {
   position: absolute;
   left: 30vw;
