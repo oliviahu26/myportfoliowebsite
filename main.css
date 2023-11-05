@@ -220,8 +220,15 @@ a:hover {
         top: 5vh;
         left: 2vw;
     }
+
+    img.logoHome{
+      position: absolute;
+      width: 100%;
+      top: 5vh;
+      left: 2vw;
+    }
     
-    p#description {
+    p#HomePageDescription {
       position: absolute;
       left: 5vw;
       top: 15vh;
@@ -238,6 +245,7 @@ a:hover {
       flex-direction: column;
       justify-content: space-around;
       width: 100vw;
+      gap: 2vh;
       padding-left: 0;
       padding-top: 40vh;
     }
