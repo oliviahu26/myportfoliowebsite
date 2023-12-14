@@ -22,7 +22,7 @@ body {
 img.logo {
   position: fixed;
   display: flex;
-  top: 10vh;
+  top: 8vh;
   left: 50%;
   transform: translate(-50%, 0);
   height: 10vh;
@@ -33,9 +33,9 @@ img.logo {
 img.logoHome {
   position: fixed;
   display: flex;
-  top: 10vh;
+  top: 8vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   height: 10vh; /* Set the height of the container */
   margin: 0; /* Remove default margin */
   cursor: pointer;
