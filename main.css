@@ -6,6 +6,7 @@ html {
 
 body {
   background-color: #000000;
+  margin: 0;
 }
 
 @font-face {
@@ -20,9 +21,12 @@ body {
 
 img.logo {
   position: fixed;
-  width: 20vw;
-  top: 8vh;
-  left: 2vw;
+  display: flex;
+  top: 10vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 10vh;
+  margin: 0;
   cursor: pointer;
 }
 
@@ -70,6 +74,7 @@ div#work {
   top: 50vh;
   left: 50%;
   transform: translate(-50%, 0);
+  padding-bottom: 30vh;
 }
 
 h1 {
@@ -209,14 +214,33 @@ a:hover {
   transition: 0.5s;
 }
 
+footer {
+  position: absolute;
+  top: 225vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Nuances", serif;
+  color: rgb(164, 162, 162);
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* PHONE SCREEN SIZE */
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
   img.logo {
     position: absolute;
-    width: 100%;
     top: 5vh;
-    left: 2vw;
+    height: 8vh;
   }
 
   img.logoHome {
@@ -238,8 +262,6 @@ a:hover {
     justify-content: space-around;
     width: 100vw;
     gap: 2vh;
-    padding-left: 0;
-    padding-top: 40vh;
   }
 
   h1 {
@@ -251,8 +273,11 @@ a:hover {
   }
 
   div.projectpage {
-    padding-top: 20vh;
-    padding-left: 0;
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 0;
   }
 
   img.projectimage {
