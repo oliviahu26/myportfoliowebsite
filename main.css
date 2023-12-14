@@ -1,12 +1,10 @@
-
-
 /* MACBOOK 16 INCH SCREEN SIZE */
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #000000;
 }
 
@@ -15,36 +13,40 @@ body{
   src: url("Blocus.otf");
 }
 
-@font-face{
+@font-face {
   font-family: "Nuances";
   src: url("Nuances.otf");
 }
 
-img.logo{
-    position: fixed;
-    width: 20vw;
-    top: 8vh;
-    left: 2vw;
-    cursor: pointer;
+img.logo {
+  position: fixed;
+  width: 20vw;
+  top: 8vh;
+  left: 2vw;
+  cursor: pointer;
 }
 
-img.logoHome{
+img.logoHome {
   position: fixed;
-  width: 25vw;
-  top: 8vh;
-  left: 36vw;
+  display: flex;
+  top: 10vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10vh; /* Set the height of the container */
+  margin: 0; /* Remove default margin */
   cursor: pointer;
 }
 
 p#HomePageDescription {
   position: absolute;
-  left: 30vw;
-  top: 20vh;
+  top: 25vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Nuances", serif;
   font-size: 1.5vw;
   color: rgb(164, 162, 162);
   padding: 20px;
-  width: 36vw;
+  width: 28vw;
   text-align: center;
 }
 
@@ -53,23 +55,21 @@ a#link {
   color: white;
 }
 
-
 a#link:hover {
   color: rgb(164, 162, 162);
   transition: 0.5s;
 }
 
-
 div#work {
+  position: absolute;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 1vw;
-  padding-top: 50vh;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-bottom: 10vh;
+  grid-column-gap: 1vw;
+  grid-row-gap: 2vh;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 h1 {
@@ -92,69 +92,72 @@ div.description {
   color: rgb(164, 162, 162);
 }
 
-
 img.projectimage {
-display: block;
-width: 30vw;
-border-radius: 10px;
+  display: block;
+  width: 30vw;
+  border-radius: 10px;
 }
 
 img.projectimage:hover {
-opacity: 0.5;
-transition: .5s ease;
+  opacity: 0.5;
+  transition: 0.5s ease;
 }
 
-video.code{
-padding-bottom: 50px;
-width: 70vw;
-height: auto;
+video.code {
+  padding-bottom: 50px;
+  width: 70vw;
+  height: auto;
 }
 
 div.projectpage {
-padding-top: 10vh;
-padding-left: 25vw;
+  padding-top: 10vh;
+  padding-left: 25vw;
 }
 
-img.time{
-width: 80%;
-padding-bottom: 20px;
+img.time {
+  width: 80%;
+  padding-bottom: 20px;
 }
 
 img.visualVessel {
-width: 90%;
+  width: 90%;
 }
 
-img.milkyway, img.socialfakeposters{
-width: 70vw;
-padding-bottom: 20px;
+img.milkyway,
+img.socialfakeposters {
+  width: 70vw;
+  padding-bottom: 20px;
 }
 
 img.manholes {
-width: 70vw;
-padding-top: 50px;
+  width: 70vw;
+  padding-top: 50px;
 }
 
 img.peoplemag {
-width: 25vw;
+  width: 25vw;
 }
 
-img.lesserafim, img#hats {
-width: 60vw;
-padding: 5px;
+img.lesserafim,
+img#hats {
+  width: 60vw;
+  padding: 5px;
 }
 
-img.peoplemag2, img.tbd, img.starbucks{
-width: 70vw;
-padding-bottom: 10px;
+img.peoplemag2,
+img.tbd,
+img.starbucks {
+  width: 70vw;
+  padding-bottom: 10px;
 }
 
 embed#resume {
-position: absolute;
-left: 40vw;
-top: 10h;
+  position: absolute;
+  left: 40vw;
+  top: 10h;
 }
 
-img#profilepic{
+img#profilepic {
   position: absolute;
   left: 20vw;
   top: 25vh;
@@ -183,7 +186,7 @@ button#resume {
   background-color: black;
 }
 
-button#resume:hover{
+button#resume:hover {
   transition: 0.5s;
   cursor: pointer;
   color: black;
@@ -196,7 +199,7 @@ a {
   color: rgb(164, 162, 162);
 }
 
-a:visited{
+a:visited {
   color: rgb(164, 162, 162);
 }
 
@@ -206,101 +209,134 @@ a:hover {
   transition: 0.5s;
 }
 
-
 /* PHONE SCREEN SIZE */
 
-  @media only screen 
-    and (min-device-width: 300px) 
-    and (max-device-width: 750px) 
-    and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
+  img.logo {
+    position: absolute;
+    width: 100%;
+    top: 5vh;
+    left: 2vw;
+  }
 
-    img.logo{
-        position: absolute;
-        width: 100%;
-        top: 5vh;
-        left: 2vw;
-    }
+  img.logoHome {
+    position: absolute;
+    height: 8vh;
+  }
 
-    img.logoHome{
-      position: absolute;
-      width: 100%;
-      top: 5vh;
-      left: 2vw;
-    }
-    
-    p#HomePageDescription {
-      position: absolute;
-      left: 5vw;
-      top: 15vh;
-      font-family: "Nuances", serif;
-      font-size: 6vw;
-      color: rgb(164, 162, 162);
-      padding: 20px;
-      width: 85vw;
-      text-align: center;
-    }
-  
-    div#work {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      width: 100vw;
-      gap: 2vh;
-      padding-left: 0;
-      padding-top: 40vh;
-    }
+  p#HomePageDescription {
+    position: absolute;
+    top: 25vh;
+    font-size: 6vw;
+    width: 80vw;
+    text-align: center;
+  }
 
-    h1{
-      display: none;
-    }
-    
-    div.description {
-      display: none
-    }
+  div#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 2vh;
+    padding-left: 0;
+    padding-top: 40vh;
+  }
 
-    div.projectpage {
-      padding-top: 20vh;
-      padding-left: 0;
-    }
+  h1 {
+    display: none;
+  }
 
-    img.projectimage {
-      display: block;
-      width: 100vw;
-    }
+  div.description {
+    display: none;
+  }
 
-    img.visualVessel {
-      width: 85vw;
-      }
+  div.projectpage {
+    padding-top: 20vh;
+    padding-left: 0;
+  }
 
-    video.code, video.animation{
-      padding-bottom: 0;
-      width: 100vw;
-      height: auto;
-    }
+  img.projectimage {
+    display: block;
+    width: 100vw;
+  }
 
-    img.milkyway, img.socialfakeposters{
-      width: 100vw;
-      padding-bottom: 5vh;
-    }
+  img.visualVessel {
+    width: 85vw;
+  }
 
-    img.lobster{
-      width: 100vw;
-      padding-bottom: 1vh;
-    }
+  video.code,
+  video.animation {
+    padding-bottom: 0;
+    width: 100vw;
+    height: auto;
+  }
 
-    img.illustration, img#case {
-      width: 100vw;
-      padding-bottom: 30px;
-      padding-left: 0;
-    }
+  img.milkyway,
+  img.socialfakeposters {
+    width: 100vw;
+    padding-bottom: 5vh;
+  }
 
-    img.peoplemag, img.lesserafim, img.tbd, img.manholes{
-      width: 100vw;
-      padding-left: 0; 
-    }
+  img.lobster {
+    width: 100vw;
+    padding-bottom: 1vh;
+  }
 
-    img.peoplemag2, img.starbucks{
-      width: 100vw;
-    }
-      }
+  img.illustration,
+  img#case {
+    width: 100vw;
+    padding-bottom: 30px;
+    padding-left: 0;
+  }
 
+  img.peoplemag,
+  img.lesserafim,
+  img.tbd,
+  img.manholes {
+    width: 100vw;
+    padding-left: 0;
+  }
+
+  img.peoplemag2,
+  img.starbucks {
+    width: 100vw;
+  }
+
+  img#profilepic {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    width: 85vw;
+    border-radius: 10px;
+  }
+
+  div#about {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 100vh;
+    font-family: "Nuances", serif;
+    font-size: 5vw;
+    color: rgb(164, 162, 162);
+    padding: 20px;
+    width: 85vw;
+  }
+
+  button#resume {
+    border: rgb(164, 162, 162);
+    stroke-width: 2px;
+    color: rgb(164, 162, 162);
+    font-family: "Nuances", serif;
+    font-size: 5vw;
+    padding: 10px;
+    background-color: black;
+  }
+
+  button#resume:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+}
