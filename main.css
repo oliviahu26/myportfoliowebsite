@@ -79,7 +79,7 @@ div#work {
 
 h1 {
   position: fixed;
-  top: 25vh;
+  top: 10vh;
   text-align: left;
   font-family: "Nuances", serif;
   font-size: 2vw;
@@ -89,7 +89,7 @@ h1 {
 div.description {
   position: fixed;
   left: 3vw;
-  top: 35vh;
+  top: 20vh;
   width: 18vw;
   text-align: left;
   font-family: "Nuances", serif;
