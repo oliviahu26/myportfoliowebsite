@@ -272,6 +272,17 @@ footer a:hover {
     display: none;
   }
 
+  footer {
+    position: absolute;
+    top: 440vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Nuances", serif;
+    color: rgb(164, 162, 162);
+    padding: 20px;
+    text-align: center;
+  }
+
   div.projectpage {
     position: absolute;
     top: 30vh;
