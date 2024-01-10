@@ -119,6 +119,23 @@ div.projectpage {
   padding-left: 25vw;
 }
 
+.micellaneousPage {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 3vw;
+  grid-row-gap: 1vh;
+  top: 30vh;
+  left: 60%;
+  transform: translate(-50%, 0);
+  padding-bottom: 30vh;
+}
+
+.other {
+  width: 20vw;
+}
+
 img.time {
   width: 80%;
   padding-bottom: 20px;
