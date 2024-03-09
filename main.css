@@ -36,14 +36,14 @@ img.logoHome {
   top: 8vh;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 10vh; /* Set the height of the container */
+  height: 8vh; /* Set the height of the container */
   margin: 0; /* Remove default margin */
   cursor: pointer;
 }
 
 p#HomePageDescription {
   position: absolute;
-  top: 34vh;
+  top: 25vh;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Nuances", serif;
@@ -233,7 +233,7 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 180vh;
+  top: 220vh;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: "Nuances", serif;
