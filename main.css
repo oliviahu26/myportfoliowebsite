@@ -36,7 +36,7 @@ img.logoHome {
   top: 8vh;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 20vh; /* Set the height of the container */
+  height: 10vh; /* Set the height of the container */
   margin: 0; /* Remove default margin */
   cursor: pointer;
 }
