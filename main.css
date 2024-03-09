@@ -74,7 +74,7 @@ div#work {
   top: 50vh;
   left: 50%;
   transform: translate(-50%, 0);
-  padding-bottom: 30vh;
+  padding-bottom: 10vh;
 }
 
 h1 {
@@ -233,7 +233,7 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 225vh;
+  top: 180vh;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: "Nuances", serif;
