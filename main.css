@@ -363,6 +363,11 @@ footer a:hover {
     width: 100vw;
   }
 
+  video.scans {
+    width: 100vw;
+    height: auto;
+  }
+
   img#profilepic {
     position: absolute;
     left: 50%;
