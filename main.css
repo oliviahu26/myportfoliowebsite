@@ -405,4 +405,12 @@ footer a:hover {
     color: black;
     background-color: white;
   }
+
+  img.other {
+    width: 100%;
+  }
+
+  div.miscellaneous {
+    width: 100%;
+  }
 }
