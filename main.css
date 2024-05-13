@@ -255,7 +255,7 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 220vh;
+  top: 180vh;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: "Nuances", serif;
