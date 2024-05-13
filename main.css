@@ -41,6 +41,23 @@ img.logoHome {
   cursor: pointer;
 }
 
+div.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 38vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: rgb(164, 162, 162);
+  text-align: center;
+}
+
+.navbar p {
+  padding: 20px;
+}
+
 p#HomePageDescription {
   position: absolute;
   top: 25vh;
@@ -126,10 +143,15 @@ div.projectpage {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 3vw;
   grid-row-gap: 1vh;
-  top: 30vh;
-  left: 60%;
+  top: 45vh;
+  left: 50%;
   transform: translate(-50%, 0);
   padding-bottom: 30vh;
+}
+
+.videoPage {
+  padding-top: 45vh;
+  padding-left: 20vw;
 }
 
 .other {
