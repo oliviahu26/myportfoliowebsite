@@ -143,6 +143,8 @@ div.projectpage {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 3vw;
   grid-row-gap: 1vh;
+  justify-content: center;
+  align-items: center;
   top: 45vh;
   left: 50%;
   transform: translate(-50%, 0);
