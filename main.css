@@ -84,7 +84,7 @@ a#link:hover {
 div#work {
   position: absolute;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 1vw;
   grid-row-gap: 2vh;
@@ -92,6 +92,12 @@ div#work {
   left: 50%;
   transform: translate(-50%, 0);
   padding-bottom: 10vh;
+}
+
+div#work p {
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: rgb(164, 162, 162);
 }
 
 h1 {
@@ -116,7 +122,7 @@ div.description {
 
 img.projectimage {
   display: block;
-  width: 30vw;
+  width: 45vw;
   border-radius: 10px;
   transition: 0.5s ease;
 }
@@ -257,7 +263,7 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 180vh;
+  top: 240vh;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: "Nuances", serif;
