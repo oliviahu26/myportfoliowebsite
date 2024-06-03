@@ -81,6 +81,19 @@ a#link:hover {
   transition: 0.5s;
 }
 
+div.gifs {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1vw;
+  grid-row-gap: 2vh;
+}
+
+img.eachgif {
+  width: 32vw;
+}
+
 div#work {
   position: absolute;
   display: grid;
