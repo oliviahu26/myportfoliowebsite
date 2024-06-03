@@ -332,6 +332,14 @@ footer a:hover {
     gap: 2vh;
   }
 
+  div.navbar {
+    top: 42vh;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+
   h1 {
     display: none;
   }
@@ -458,7 +466,7 @@ footer a:hover {
   }
 
   footer {
-    top: 480vh;
+    top: 280vh;
     width: 60vw;
   }
 }
