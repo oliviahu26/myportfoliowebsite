@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 1.5vw;
+  font-family: "Nuances", serif;
+  color: rgb(164, 162, 162);
+}
+
 @font-face {
   font-family: "Blocus";
   src: url("Blocus.otf");
@@ -338,6 +344,8 @@ footer a:hover {
 
   p {
     font-size: 5vw;
+    font-family: "Nuances", serif;
+    color: rgb(164, 162, 162);
   }
 
   h1 {
