@@ -5,14 +5,14 @@ html {
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
   margin: 0;
 }
 
 p {
   font-size: 1.5vw;
   font-family: "Nuances", serif;
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 @font-face {
@@ -56,7 +56,7 @@ div.navbar {
   transform: translate(-50%, -50%);
   font-family: "Nuances", serif;
   font-size: 1.5vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
   text-align: center;
 }
 
@@ -71,7 +71,7 @@ p#HomePageDescription {
   transform: translate(-50%, -50%);
   font-family: "Nuances", serif;
   font-size: 1.5vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
   padding: 20px;
   width: 30vw;
   text-align: center;
@@ -83,7 +83,7 @@ a#link {
 }
 
 a#link:hover {
-  color: rgb(164, 162, 162);
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -116,7 +116,7 @@ div#work {
 div#work p {
   font-family: "Nuances", serif;
   font-size: 1.5vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 h1 {
@@ -125,7 +125,7 @@ h1 {
   text-align: left;
   font-family: "Nuances", serif;
   font-size: 2vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 div.description {
@@ -136,7 +136,7 @@ div.description {
   text-align: left;
   font-family: "Nuances", serif;
   font-size: 1.2vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 img.projectimage {
@@ -242,15 +242,15 @@ div#about {
   top: 25vh;
   font-family: "Nuances", serif;
   font-size: 1.5vw;
-  color: rgb(164, 162, 162);
+  color: #000000;
   padding: 20px;
   width: 36vw;
 }
 
 button#resume {
-  border: rgb(164, 162, 162);
+  border: #000000;
   stroke-width: 2px;
-  color: rgb(164, 162, 162);
+  color: #000000;
   font-family: "Nuances", serif;
   font-size: 1vw;
   padding: 10px;
@@ -267,11 +267,11 @@ button#resume:hover {
 a {
   font-family: "Nuances", serif;
   text-decoration: none;
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 a:visited {
-  color: rgb(164, 162, 162);
+  color: #000000;
 }
 
 a:hover {
@@ -282,11 +282,11 @@ a:hover {
 
 footer {
   position: absolute;
-  top: 280vh;
+  top: 365vh;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: "Nuances", serif;
-  color: rgb(164, 162, 162);
+  color: #000000;
   padding: 20px;
   text-align: center;
 }
@@ -345,7 +345,7 @@ footer a:hover {
   p {
     font-size: 5vw;
     font-family: "Nuances", serif;
-    color: rgb(164, 162, 162);
+    color: #000000;
   }
 
   h1 {
@@ -362,7 +362,7 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, 0);
     font-family: "Nuances", serif;
-    color: rgb(164, 162, 162);
+    color: #000000;
     padding: 20px;
     text-align: center;
   }
@@ -460,15 +460,15 @@ footer a:hover {
     top: 100vh;
     font-family: "Nuances", serif;
     font-size: 5vw;
-    color: rgb(164, 162, 162);
+    color: #000000;
     padding: 20px;
     width: 85vw;
   }
 
   button#resume {
-    border: rgb(164, 162, 162);
+    border: #000000;
     stroke-width: 2px;
-    color: rgb(164, 162, 162);
+    color: #000000;
     font-family: "Nuances", serif;
     font-size: 5vw;
     padding: 10px;
