@@ -222,6 +222,16 @@ img.starbucks {
   padding-bottom: 10px;
 }
 
+div.peachslices_social {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+}
+
+img.peach {
+  width: 24vw;
+}
+
 embed#resume {
   position: absolute;
   left: 40vw;
