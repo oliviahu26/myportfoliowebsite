@@ -225,7 +225,6 @@ img.starbucks {
 div.peachslices_social {
   display: flex;
   flex-direction: row;
-  width: 70vw;
 }
 
 img.peach {
@@ -434,6 +433,10 @@ footer a:hover {
   img.peoplemag2,
   img.starbucks {
     width: 100vw;
+  }
+
+  img.peach {
+    width: 34vw;
   }
 
   div.gifs {
