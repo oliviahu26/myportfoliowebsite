@@ -339,6 +339,10 @@ footer a:hover {
     gap: 2vh;
   }
 
+  div.project > p {
+    opacity: 0;
+  }
+
   div.micellaneousPage {
     display: flex;
     flex-direction: column;
