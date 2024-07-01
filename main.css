@@ -79,11 +79,11 @@ p#HomePageDescription {
 
 a#link {
   text-decoration: none;
-  color: white;
+  color: #000000;
 }
 
 a#link:hover {
-  color: #000000;
+  opacity: 0.5;
   transition: 0.5s;
 }
 
@@ -263,14 +263,14 @@ button#resume {
   font-family: "Nuances", serif;
   font-size: 1vw;
   padding: 10px;
-  background-color: black;
+  background-color: #ffffff;
 }
 
 button#resume:hover {
   transition: 0.5s;
   cursor: pointer;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 a {
