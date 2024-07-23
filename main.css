@@ -185,6 +185,11 @@ div.projectpage {
   width: 25vw;
 }
 
+img.tshirt {
+  width: 45%;
+  padding: 10px;
+}
+
 img.time {
   width: 80%;
   padding-bottom: 20px;
