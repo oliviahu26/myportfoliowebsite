@@ -181,6 +181,11 @@ div.projectpage {
   padding-left: 20vw;
 }
 
+.posters {
+  padding: 20px;
+  width: 30vw;
+}
+
 .other {
   width: 25vw;
 }
