@@ -26,7 +26,7 @@ p {
 }
 
 img.logo {
-  position: fixed;
+  position: absolute;
   display: flex;
   top: 8vh;
   left: 50%;
@@ -37,7 +37,7 @@ img.logo {
 }
 
 img.logoHome {
-  position: fixed;
+  position: absolute;
   display: flex;
   top: 8vh;
   left: 50%;
@@ -294,26 +294,6 @@ a:hover {
   transition: 0.5s;
 }
 
-footer {
-  position: absolute;
-  top: 420vh;
-  left: 50%;
-  transform: translate(-50%, 0);
-  font-family: "Nuances", serif;
-  color: #000000;
-  padding: 20px;
-  text-align: center;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
 /* PHONE SCREEN SIZE */
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -375,14 +355,7 @@ footer a:hover {
   }
 
   footer {
-    position: absolute;
-    top: 440vh;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-family: "Nuances", serif;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
+    display: none;
   }
 
   div.projectpage {
@@ -510,6 +483,7 @@ footer a:hover {
 
   div.miscellaneous {
     width: 100%;
+    top: 30vh;
   }
 
   footer {
