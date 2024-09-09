@@ -166,14 +166,14 @@ div.projectpage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 3vw;
+  grid-column-gap: 1vw;
   grid-row-gap: 1vh;
   justify-content: center;
   align-items: center;
   top: 45vh;
   left: 50%;
   transform: translate(-50%, 0);
-  padding-bottom: 30vh;
+  padding-bottom: 10vh;
 }
 
 .videoPage {
