@@ -144,7 +144,7 @@ div.projectpage {
   grid-row-gap: 3vh;
   justify-content: center;
   align-items: center;
-  top: 45vh;
+  top: 20vh;
   left: 50%;
   transform: translate(-50%, 0);
   padding-bottom: 10vh;
