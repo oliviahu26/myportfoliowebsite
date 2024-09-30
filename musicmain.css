@@ -1,0 +1,475 @@
+/* MACBOOK 16 INCH SCREEN SIZE */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5vw;
+  font-family: "PP Neue Montreal", sans-serif;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: "Nuances";
+  src: url("PPNeueMontreal-Book.otf");
+}
+
+div.topbar {
+  position: absolute;
+  display: flex;
+  width: 97%;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "PP Neue Montreal", sans-serif;
+  padding: 20px 30px 20px 30px;
+  font-size: 2vw;
+  color: #ffffff;
+}
+
+div.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 38vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: #ffffff;
+  text-align: center;
+}
+
+.navbar p {
+  padding: 20px;
+}
+
+
+a#link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a#link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+div.gifs {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1vw;
+  grid-row-gap: 2vh;
+}
+
+img.eachgif {
+  width: 32vw;
+}
+
+div#work {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1vw;
+  grid-row-gap: 2vh;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 10vh;
+}
+
+div#work p {
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: #ffffff;
+}
+
+h1 {
+  position: fixed;
+  top: 10vh;
+  text-align: left;
+  font-family: "Nuances", serif;
+  font-size: 2vw;
+  color: #ffffff;
+}
+
+div.description {
+  position: fixed;
+  left: 4vw;
+  top: 20vh;
+  width: 15vw;
+  text-align: left;
+  font-family: "Nuances", serif;
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+img.projectimage {
+  display: block;
+  width: 45vw;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+img.projectimage:hover {
+  opacity: 0.5;
+}
+
+video.code {
+  padding-bottom: 50px;
+  width: 70vw;
+  height: auto;
+}
+
+div.projectpage {
+  padding-top: 20vh;
+  padding-left: 25vw;
+  
+}
+
+.micellaneousPage {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vh;
+  justify-content: center;
+  align-items: center;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 10vh;
+}
+
+.videoPage {
+  padding-top: 45vh;
+  padding-left: 20vw;
+}
+
+.posters {
+  width: 25vw;
+}
+
+.cover {
+  width: 37vw;
+}
+
+.other {
+  width: 25vw;
+}
+
+img.tshirt {
+  width: 45%;
+  padding: 10px;
+}
+
+img.time {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+img.visualVessel {
+  width: 90%;
+}
+
+img.milkyway,
+img.socialfakeposters {
+  width: 70vw;
+  padding-bottom: 20px;
+}
+
+img.manholes {
+  width: 70vw;
+  padding-top: 50px;
+}
+
+img.peoplemag {
+  width: 25vw;
+}
+
+img.lesserafim,
+img#hats {
+  width: 60vw;
+  padding: 5px;
+}
+
+img.peoplemag2,
+img.tbd,
+img.starbucks {
+  width: 70vw;
+  padding-bottom: 10px;
+}
+
+div.peachslices_social {
+  display: flex;
+  flex-direction: row;
+}
+
+img.peach {
+  width: 24vw;
+}
+
+embed#resume {
+  position: absolute;
+  left: 40vw;
+  top: 10h;
+}
+
+img#profilepic {
+  position: absolute;
+  left: 20vw;
+  top: 25vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+div#about {
+  position: absolute;
+  left: 53vw;
+  top: 25vh;
+  font-family: "Nuances", serif;
+  font-size: 1.5vw;
+  color: #ffffff;
+  padding: 20px;
+  width: 36vw;
+}
+
+button#resume {
+  border: #ffffff;
+  stroke-width: 2px;
+  color: #ffffff;
+  font-family: "Nuances", serif;
+  font-size: 1vw;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+button#resume:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+a {
+  font-family: "Nuances", serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  font-family: "Nuances", serif;
+  color: white;
+  transition: 0.5s;
+}
+
+/* PHONE SCREEN SIZE */
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
+  img.logo {
+    position: absolute;
+    top: 5vh;
+    height: 8vh;
+  }
+
+  img.logoHome {
+    position: absolute;
+    height: 8vh;
+  }
+
+  p#HomePageDescription {
+    position: absolute;
+    top: 25vh;
+    font-size: 6vw;
+    width: 80vw;
+    text-align: center;
+  }
+
+  div#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 2vh;
+  }
+
+  div.project > p {
+    opacity: 0;
+  }
+
+  div.micellaneousPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 2vh;
+  }
+
+  div.navbar {
+    top: 42vh;
+  }
+
+  p {
+    font-size: 5vw;
+    font-family: "Nuances", serif;
+    color: #ffffff;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  div.description {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  div.projectpage {
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 0;
+  }
+
+  img.projectimage {
+    display: block;
+    width: 100vw;
+  }
+
+  img.thesis {
+    width: 100vw;
+  }
+
+  img.visualVessel {
+    width: 85vw;
+  }
+
+  video.code,
+  video.animation {
+    padding-bottom: 0;
+    width: 100vw;
+    height: auto;
+  }
+
+  img.milkyway,
+  img.socialfakeposters {
+    width: 100vw;
+    padding-bottom: 5vh;
+  }
+
+  img.lobster {
+    width: 100vw;
+    padding-bottom: 1vh;
+  }
+
+  img.illustration,
+  img#case {
+    width: 100vw;
+    padding-bottom: 30px;
+    padding-left: 0;
+  }
+
+  img.peoplemag,
+  img.lesserafim,
+  img.tbd,
+  img.manholes {
+    width: 100vw;
+    padding-left: 0;
+  }
+
+  img.peoplemag2,
+  img.starbucks {
+    width: 100vw;
+  }
+
+  img.peach {
+    width: 34vw;
+  }
+
+  div.gifs {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 2vh;
+  }
+
+  img.eachgif {
+    width: 50vw;
+  }
+
+  video.scans {
+    width: 100vw;
+    height: auto;
+  }
+
+  img#profilepic {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    width: 85vw;
+    border-radius: 10px;
+  }
+
+  div#about {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 100vh;
+    font-family: "Nuances", serif;
+    font-size: 5vw;
+    color: #ffffff;
+    padding: 20px;
+    width: 85vw;
+  }
+
+  button#resume {
+    border: #ffffff;
+    stroke-width: 2px;
+    color: #ffffff;
+    font-family: "Nuances", serif;
+    font-size: 5vw;
+    padding: 10px;
+    background-color: black;
+  }
+
+  button#resume:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+
+  img.other {
+    width: 100%;
+  }
+
+  div.miscellaneous {
+    width: 100%;
+    top: 30vh;
+  }
+
+  footer {
+    top: 300vh;
+    width: 60vw;
+  }
+}
