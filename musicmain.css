@@ -150,6 +150,21 @@ div.projectpage {
   padding-bottom: 10vh;
 }
 
+.merchPage {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vh;
+  justify-content: center;
+  align-items: center;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 10vh;
+}
+
 .videoPage {
   padding-top: 45vh;
   padding-left: 20vw;
@@ -158,6 +173,11 @@ div.projectpage {
 .posters {
   width: 25vw;
 }
+
+.merch {
+  width: 38vw;
+}
+
 
 .cover {
   width: 37vw;
