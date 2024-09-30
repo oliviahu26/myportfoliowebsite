@@ -266,7 +266,7 @@ div#about {
 button#resume {
   border: #ffffff;
   stroke-width: 2px;
-  color: #ffffff;
+  color: #000000;
   font-family: "Nuances", serif;
   font-size: 1vw;
   padding: 10px;
