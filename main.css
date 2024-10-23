@@ -78,7 +78,17 @@ a#link:hover {
   color: #006eff;
 }
 
+a {
+  font-family: "Degular Demo", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+
+
 a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
   color: #006eff;
 }
 
@@ -285,22 +295,6 @@ button#resume:hover {
   background-color: black;
 }
 
-a {
-  font-family: "Degular Demo", sans-serif;
-  text-decoration: none;
-  color: #000000;
-  padding: 10px;
-}
-
-a:visited {
-  color: #000000;
-}
-
-a:hover {
-  font-family: "Degular Demo", sans-serif;
-  color: white;
-  transition: 0.5s;
-}
 
 /* PHONE SCREEN SIZE */
 
