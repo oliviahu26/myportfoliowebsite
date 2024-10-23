@@ -169,14 +169,14 @@ div.projectpage {
   grid-row-gap: 3vh;
   justify-content: center;
   align-items: center;
-  top: 45vh;
+  top: 25vh;
   left: 50%;
   transform: translate(-50%, 0);
   padding-bottom: 10vh;
 }
 
 .videoPage {
-  padding-top: 45vh;
+  padding-top: 32vh;
   padding-left: 20vw;
 }
 
