@@ -457,7 +457,7 @@ a:hover {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 50vh;
+    top: 55vh;
     width: 85vw;
     border-radius: 10px;
   }
@@ -466,7 +466,7 @@ a:hover {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 100vh;
+    top: 105vh;
     font-family: "Nuances", serif;
     font-size: 5vw;
     color: #ffffff;
