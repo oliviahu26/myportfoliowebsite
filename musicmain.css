@@ -299,15 +299,18 @@ a:hover {
 /* PHONE SCREEN SIZE */
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
-  img.logo {
-    position: absolute;
-    top: 5vh;
-    height: 8vh;
-  }
 
-  img.logoHome {
+  div.topbar {
     position: absolute;
-    height: 8vh;
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "PP Neue Montreal", sans-serif;
+    padding: 20px;
+    gap: 30px;
+    font-size: 8vw;
+    color: #ffffff;
   }
 
   p#HomePageDescription {
@@ -322,6 +325,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    top: 30vh;
     width: 100vw;
     gap: 2vh;
   }
@@ -366,6 +370,14 @@ a:hover {
     left: 50%;
     transform: translate(-50%, 0);
     padding: 0;
+  }
+
+  img {
+    width: 100vw;
+  }
+
+  img.cover{
+    width: 100vw;
   }
 
   img.projectimage {
