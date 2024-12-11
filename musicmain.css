@@ -20,6 +20,12 @@ p {
   src: url("PPNeueMontreal-Book.otf");
 }
 
+img.logo {
+  position: absolute;
+  width: 8%;
+  padding: 10px;
+}
+
 div.topbar {
   position: absolute;
   display: flex;
@@ -28,7 +34,7 @@ div.topbar {
   justify-content: space-between;
   font-family: "PP Neue Montreal", sans-serif;
   padding: 20px 30px 20px 30px;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: #ffffff;
 }
 
