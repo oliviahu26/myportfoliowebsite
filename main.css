@@ -311,7 +311,7 @@ button#resume:hover {
     font-size: 6vw;
     font-weight: 500;
     color: #000000;
-    top: 30vh;
+    top: 35vh;
     width: 95vw;
   }
 
@@ -328,6 +328,7 @@ button#resume:hover {
   }
 
   div#work {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
