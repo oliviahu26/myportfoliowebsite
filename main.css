@@ -95,6 +95,11 @@ img.eachgif {
   width: 32vw;
 }
 
+img.atlantic,
+img.yourfriends {
+  width: 700;
+}
+
 div#work {
   position: absolute;
   display: grid;
@@ -353,6 +358,7 @@ button#resume:hover {
 
   p {
     font-size: 5vw;
+    width: 100vw;
     font-family: "Degular Demo", sans-serif;
     color: #000000;
   }
@@ -376,7 +382,7 @@ button#resume:hover {
 
   div.projectpage {
     position: absolute;
-    top: 30vh;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%, 0);
     padding: 0;
@@ -403,7 +409,9 @@ button#resume:hover {
   img.peoplemag2,
   img.starbucks,
   img.tbd,
-  img.thesis{
+  img.thesis,
+  img.atlantic, 
+  img.yourfriends{
     width: 100vw;
   }
 
