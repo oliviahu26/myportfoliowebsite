@@ -95,6 +95,11 @@ img.eachgif {
   width: 32vw;
 }
 
+div.spreads {
+  position: absolute;
+  top: 650vh;
+}
+
 img.atlantic,
 img.yourfriends {
   width: 700;
