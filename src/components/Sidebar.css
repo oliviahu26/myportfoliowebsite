@@ -193,7 +193,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .sidebar-logo {
+  .sidebar-logo,
+  .sidebar-footer {
     display: none;
   }
 }
