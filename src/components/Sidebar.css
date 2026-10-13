@@ -1,0 +1,279 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100vh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--sidebar-blue);
+  scrollbar-width: none;
+}
+
+.name {
+  display: inline-block;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  font-weight: 600;
+  background: none;
+  color: rgb(51, 47, 27);
+}
+
+
+.name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-nav {
+  margin-top: 1em;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a {
+  display: block;
+  width: fit-content;
+  height: 1.25em;
+  font-size: 0.9em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: rgb(51, 47, 27);
+  text-decoration: none;
+}
+
+.external-icon {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.35em;
+  vertical-align: 0.05em;
+}
+
+.links li + li {
+  margin-top: 0.5em;
+}
+
+.links a:hover,
+.links a.active {
+  background: var(--sidebar-pink);
+  text-decoration: none;
+  color: rgb(51, 47, 27);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1.2em;
+  text-transform: uppercase;
+}
+
+.intro {
+  margin: 2.4em 0 0;
+  padding-bottom: 0;
+  font-size: 1.2em;
+  line-height: 1.25em;
+  color: rgb(51, 47, 27);
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playground {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.4em;
+  padding: 2px;
+  color: rgb(51, 47, 27);
+  text-decoration: none;
+}
+
+.playground-label {
+  font-size: 0.85em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+/* absolutely positioned so showing it doesn't move anything else */
+.playground-hint {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2px;
+  white-space: nowrap;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  line-height: normal;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.playground:hover .playground-hint {
+  opacity: 1;
+}
+
+.playground svg {
+  display: block;
+  /* the spiral's own center, so the spin doesn't wobble in the tightened box */
+  transform-origin: 55.8% 44.4%;
+}
+
+.playground:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: contents;
+  }
+
+  .sidebar .sidebar-nav {
+    display: contents;
+  }
+
+  .sidebar .links {
+    order: -2;
+    margin: 0;
+    padding: 1em 1em 0;
+    background: #80B7FF;
+  }
+
+  .sidebar .filters {
+    display: none;
+  }
+
+  .sidebar .intro {
+    order: -1;
+    margin: 0;
+    padding: 1em;
+    font-size: 1em;
+    background: var(--sidebar-blue);
+  }
+
+  .sidebar .home {
+    order: -3;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 0.5em 1em;
+    background: var(--sidebar-blue);
+  }
+}
+
+.sidebar-logo {
+  position: relative;
+  flex: 1;
+  min-height: 140px;
+  margin: 1em 0;
+}
+
+.sidebar-footer {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  color: rgb(51, 47, 27);
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar-logo {
+    display: none;
+  }
+}
+
+.name:hover {
+  background: #F5A9E0;
+}
+
+.home-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+/* the hamburger only shows on phones, where the links are tucked behind it */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgb(51, 47, 27);
+}
+
+@media screen and (max-width: 800px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .sidebar .links {
+    display: none;
+  }
+
+  .sidebar .links.is-open {
+    display: block;
+    position: fixed;
+    top: var(--sidebar-header-height, 0px);
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: 0;
+    padding: 1em;
+    background: var(--sidebar-blue);
+  }
+}
+
+/* phone menu: bigger links with more room between them */
+@media screen and (max-width: 800px) {
+  .sidebar .links a {
+    font-size: 1.4em;
+    height: 1.6em;
+    line-height: 1.6em;
+  }
+
+  .sidebar .links li + li {
+    margin-top: 1em;
+  }
+}
+
+/* phone hamburger: as tall as the name's line box, with thinner strokes */
+@media screen and (max-width: 800px) {
+  .menu-toggle {
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .menu-toggle span {
+    height: 1.5px;
+  }
+}

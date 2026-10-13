@@ -1,0 +1,100 @@
+.carousel {
+  padding: 2em 0 2em 1em;
+}
+
+.carousel-year {
+  font-family: 'Blocus', serif;
+  font-size: 1.15em;
+}
+
+.carousel-title {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  font-weight: bold;
+}
+
+.image-bank {
+  height: 70vh;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 1em;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.image-bank > img {
+  height: 100%;
+  width: auto;
+  max-width: none;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.carousel-description {
+  width: 68%;
+  margin: 1em 0 0;
+  font-size: 1em;
+  line-height: 1.15em;
+}
+
+.image-bank > video {
+  height: 100%;
+  width: auto;
+  max-width: none;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 1010px) {
+  .carousel-description {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .carousel {
+    padding: 2em 0 2em 1em;
+  }
+
+  .image-bank {
+    height: 50vh;
+  }
+}
+
+.image-bank > .image-button {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.image-bank > .image-button img {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
+
+@media screen and (max-width: 800px) {
+  .image-bank {
+    height: auto;
+  }
+
+  .image-bank > .image-button,
+  .image-bank > video {
+    margin-right: 8px;
+  }
+
+  .image-bank > .image-button,
+  .image-bank > video {
+    width: calc(100vw - 1em);
+    height: auto;
+  }
+
+  .image-bank > .image-button img,
+  .image-bank > video {
+    width: 100%;
+    height: auto;
+  }
+}

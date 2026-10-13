@@ -1,0 +1,24 @@
+.content {
+  margin-left: 400px;
+  width: calc(100% - 400px);
+  min-height: 100vh;
+}
+
+@media screen and (min-height: 1000px) {
+  .image-bank {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* the sidebar joins the page flow on phones so the header can stick */
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+}

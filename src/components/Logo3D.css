@@ -1,0 +1,14 @@
+/* half the size of the logo area, tucked into its bottom-left corner */
+.logo-3d {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.logo-3d canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

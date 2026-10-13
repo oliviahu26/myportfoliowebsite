@@ -1,0 +1,32 @@
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1em;
+  padding: 1em;
+  /* fixed height (padding + one badge row) so picking a filter never pushes the content down */
+  box-sizing: border-box;
+  height: calc(2em + 28px);
+  background: #ffffff;
+}
+
+.filter-bar.is-empty {
+  visibility: hidden;
+}
+
+.filter-bar + .carousel {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .filter-bar {
+    display: none;
+  }
+
+  .filter-bar + .carousel {
+    padding-top: 1em;
+  }
+}

@@ -1,0 +1,136 @@
+.playground-page {
+  min-height: 100vh;
+  padding: 1em;
+}
+
+.playground-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.arrow-window {
+  display: block;
+  width: 104px;
+  height: 24px;
+  overflow: hidden;
+  /* the arrows fade out at the ends of the window */
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 18px, #000 86px, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 18px, #000 86px, transparent);
+}
+
+/* 12px gap between arrows; the track starts one step left so the second arrow sits centered at rest. movement is driven from Playground.jsx */
+.arrow-track {
+  display: flex;
+  gap: 12px;
+  margin-left: -56px;
+  width: max-content;
+  will-change: transform;
+}
+
+/* at rest only the center arrow shows; the neighbours fade in while the arrows are moving and out once they settle */
+.arrow-side {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.arrow-track.is-moving .arrow-side {
+  opacity: 1;
+}
+
+.playground-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: normal;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.playground-letter.is-nuances {
+  font-family: 'Blocus', serif;
+  font-style: normal;
+}
+
+.playground-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2em;
+}
+
+.playground-image {
+  height: 18em;
+  width: auto;
+}
+
+.playground-video {
+  height: 18em;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .playground-image,
+  .playground-video {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .playground-gallery > .image-button,
+  .playground-gallery > .playground-video {
+    width: 100%;
+  }
+}
+
+.back-button {
+  --arrow-width: 64px;
+  --arrow-height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .back-button {
+    --arrow-width: 40px;
+    --arrow-height: 15px;
+    width: 64px;
+    height: 32px;
+    padding: 0 12px;
+  }
+}
+
+/* phone arrow: the window is just the arrow, so the resting arrow is centered by its own offset */
+@media screen and (max-width: 800px) {
+  .arrow-window {
+    width: 40px;
+    height: 15px;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .arrow-track {
+    margin-left: -52px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .playground-title {
+    left: auto;
+    right: 1em;
+    transform: translateY(-50%);
+  }
+}
+
+.playground-page,
+.playground-page * {
+  /* the spiral as the cursor in the sidebar blue; the hotspot sits on its center */
+  cursor: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='42%2032%20104%20117'%20width='28'%20height='32'%3E%3Cpath%20d='M121.2%20142.3%20L108.5%20144.2%20L95.8%20143.6%20L83.8%20140.5%20L72.9%20135.0%20L63.5%20127.5%20L55.9%20118.4%20L50.6%20108.1%20L47.5%2097.1%20L46.8%2085.9%20L48.4%2074.9%20L52.3%2064.7%20L58.0%2055.7%20L65.4%2048.2%20L74.1%2042.5%20L83.5%2038.8%20L93.4%2037.2%20L103.2%2037.7%20L112.6%2040.1%20L121.0%2044.4%20L128.3%2050.3%20L134.0%2057.4%20L138.1%2065.4%20L140.4%2073.9%20L140.8%2082.6%20L139.4%2090.9%20L136.4%2098.7%20L131.9%20105.5%20L126.1%20111.1%20L119.5%20115.3%20L112.3%20117.9%20L104.9%20119.0%20L97.6%20118.4%20L90.7%20116.4%20L84.5%20113.1%20L79.3%20108.7%20L75.2%20103.4%20L72.4%2097.5%20L71.0%2091.2%20L70.8%2085.0%20L72.0%2079.1%20L74.4%2073.6%20L77.7%2069.0%20L81.8%2065.2%20L86.5%2062.5%20L91.6%2060.8%20L96.7%2060.3%20L101.6%2060.9%20L106.2%2062.4%20L110.2%2064.9%20L113.5%2068.0%20L115.9%2071.6%20L117.5%2075.5%20L118.2%2079.5%20L118.0%2083.4%20L117.0%2087.0%20L115.3%2090.2%20L113.1%2092.8%20L110.5%2094.8%20L107.6%2096.2%20L104.7%2096.8%20L101.8%2096.8%20L99.2%2096.1%20L96.8%2095.0%20L95.0%2093.5%20L93.6%2091.7%20L92.7%2089.7%20L92.3%2087.8%20L92.4%2085.9%20L92.9%2084.2%20L93.7%2082.9%20L94.7%2081.9%20L95.9%2081.2'%20fill='none'%20stroke='%234D9AFF'%20stroke-width='11'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E") 16 14, auto;
+}
