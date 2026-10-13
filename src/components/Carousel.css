@@ -76,25 +76,3 @@
   max-width: none;
 }
 
-@media screen and (max-width: 800px) {
-  .image-bank {
-    height: auto;
-  }
-
-  .image-bank > .image-button,
-  .image-bank > video {
-    margin-right: 8px;
-  }
-
-  .image-bank > .image-button,
-  .image-bank > video {
-    width: calc(100vw - 1em);
-    height: auto;
-  }
-
-  .image-bank > .image-button img,
-  .image-bank > video {
-    width: 100%;
-    height: auto;
-  }
-}
